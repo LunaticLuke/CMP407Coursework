@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CE9B6102-15D4-46DC-9961-DDCAE43D4611}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{CE9B6102-15D4-46DC-9961-DDCAE43D4611}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_Music_Volume" ID="{C6713EB4-4407-4DF2-B8E7-3FF1FAC85FE2}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_SFX_Volume" ID="{0206512E-1825-4F46-BC89-7858DFDBCCF4}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Doppler" ID="{0975B7CF-F0E0-40AC-9F79-0C3CFD244205}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="Min" Type="Real64" Value="-1"/>
+					</PropertyList>
+				</GameParameter>
+				<WorkUnit Name="CarEngine" ID="{792DAEA2-9B70-4237-9104-CCBB2604A8AD}" PersistMode="Reference"/>
+				<GameParameter Name="RTPC_Ambience_Volume" ID="{7BFAFC79-CACE-4165-9749-28AF0766A87C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Vehicle_Volume" ID="{F7428999-CE79-4990-B2F9-AD054DF7C251}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Footsteps_Volume" ID="{105C095E-7D92-4CA9-888D-1224BBDC665F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Master_Volume" ID="{5CBE408E-6DF3-41BC-B085-50BED63D55C5}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

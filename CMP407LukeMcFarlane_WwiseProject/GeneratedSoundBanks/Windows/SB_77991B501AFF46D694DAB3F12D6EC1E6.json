@@ -1,0 +1,34 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4210412213",
+    "GUID": "{FAF5CAB5-CAB5-1AB5-B5B5-B5B5B5B5B5B5}",
+    "Language": "SFX",
+    "Hash": "1925257188",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_77991B501AFF46D694DAB3F12D6EC1E6",
+    "ShortName": "SB_77991B501AFF46D694DAB3F12D6EC1E6",
+    "Path": "SB_77991B501AFF46D694DAB3F12D6EC1E6.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "2705646932",
+      "Name": "ChurchReverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\ChurchReverb",
+      "GUID": "{77991B50-1AFF-46D6-94DA-B3F12D6EC1E6}"
+     }
+    ]
+   }
+  ]
+ }
+}

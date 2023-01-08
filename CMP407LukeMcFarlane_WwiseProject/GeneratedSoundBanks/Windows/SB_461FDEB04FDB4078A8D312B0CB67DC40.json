@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1775392026",
+    "GUID": "{69D2551A-551A-151A-1A1A-1A1A1A1A1A1A}",
+    "Language": "SFX",
+    "Hash": "3473659979",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_461FDEB04FDB4078A8D312B0CB67DC40",
+    "ShortName": "SB_461FDEB04FDB4078A8D312B0CB67DC40",
+    "Path": "SB_461FDEB04FDB4078A8D312B0CB67DC40.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2937246247",
+      "Name": "ScanItem",
+      "ObjectPath": "\\Events\\Default Work Unit\\ScanItem",
+      "GUID": "{461FDEB0-4FDB-4078-A8D3-12B0CB67DC40}",
+      "MaxAttenuation": "1000.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.675306",
+      "DurationMax": "0.675306",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "134086362",
+        "Language": "SFX",
+        "ShortName": "CheckOut.wav",
+        "Path": "SFX\\CheckOut_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7C9058A6-71D1-4557-AC2A-F6D09CC42192}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{7C9058A6-71D1-4557-AC2A-F6D09CC42192}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PlayMusic" ID="{119F35F2-3329-4B87-B7DB-D43BCA0356FA}">
+					<ChildrenList>
+						<Action Name="" ID="{3BE9EC62-1BAD-46B4-9AF3-892FB725A509}" ShortID="572977500">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{ED2D414A-17BD-4893-B0CE-A43BBFBA8DE2}" WorkUnitID="{3574404C-128A-48C4-ADDA-AC63D7145204}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Footsteps" ID="{9BEA0B25-DBC0-4E91-9CFD-CBA23CB15A31}">
+					<ChildrenList>
+						<Action Name="" ID="{495F0D01-3A7E-4F61-8A38-917DC5B57668}" ShortID="218298266">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{AE75E393-B69B-493A-9555-2AFE7049CC7A}" WorkUnitID="{571851EE-389D-4536-BEAF-DFEB2E8281D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayAmbient" ID="{9A00E4D5-2B75-431E-AD47-C8ECF699F1EC}">
+					<ChildrenList>
+						<Action Name="" ID="{AE9638CD-DDD8-4A68-B60C-7153F15C1F12}" ShortID="441161844">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="3DAmbientSounds" ID="{56B44CEF-247D-4485-B0F5-8E8E09CE4C20}" WorkUnitID="{571851EE-389D-4536-BEAF-DFEB2E8281D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EnterShop" ID="{6C4366A3-30F5-48D8-9D2B-BE5A4EE1FB61}">
+					<ChildrenList>
+						<Action Name="" ID="{7FE938EC-373B-457A-A622-3CEF2A0F20C8}" ShortID="264899509">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Store_Door_Chime-Mike_Koenig-570742973" ID="{0F6EF8F2-4528-4887-9867-C2014ABF8B60}" WorkUnitID="{571851EE-389D-4536-BEAF-DFEB2E8281D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ScanItem" ID="{461FDEB0-4FDB-4078-A8D3-12B0CB67DC40}">
+					<ChildrenList>
+						<Action Name="" ID="{B9A37201-0B8A-4A5B-8E28-24079104DCFC}" ShortID="514103449">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CheckOut" ID="{678BB5D8-1BFA-4697-9E6C-CC7954B6777D}" WorkUnitID="{571851EE-389D-4536-BEAF-DFEB2E8281D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StartCar" ID="{4EC13334-4B47-4A5B-8849-809537BA5ABD}">
+					<ChildrenList>
+						<Action Name="" ID="{E38DDF9D-7B3B-4EBD-BD6C-4A03E9F94128}" ShortID="955112546">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Driving" ID="{B5159A4C-909A-4EF6-84D6-877C3C636ED9}" WorkUnitID="{571851EE-389D-4536-BEAF-DFEB2E8281D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayBirds" ID="{95841A59-A904-435E-A487-6336A146637D}">
+					<ChildrenList>
+						<Action Name="" ID="{BAD84876-42FB-4EC3-BFA5-626AA9E5B2F9}" ShortID="1043220139">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Birds" ID="{ECBAD8DC-EFA8-4F3A-BC13-8C5D3873C34E}" WorkUnitID="{571851EE-389D-4536-BEAF-DFEB2E8281D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play2DAmbience" ID="{97E267D3-599B-4F77-BF4E-A93B79B0474E}">
+					<ChildrenList>
+						<Action Name="" ID="{CAB2594D-6801-47ED-B2EE-1E9CCD6EF903}" ShortID="388644836">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="City Skyline - No Copyright Sound Effects - Audio Library" ID="{CD04D385-1A33-469C-B3DF-A2318574E707}" WorkUnitID="{769E5986-C11D-4C3E-BC8B-3D106DE82A68}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{877D62B9-C5C7-4C9C-9D2D-52DE4F8C8F08}" ShortID="328912997">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cat Sounds" ID="{4C699936-A235-41D0-B90C-9A3042DF9CCB}" WorkUnitID="{769E5986-C11D-4C3E-BC8B-3D106DE82A68}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{ADB09F82-1098-47B7-83BD-201B15D1993F}" ShortID="759467194">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dog Sounds" ID="{D5E2FD18-4A40-4C2E-AF4F-3900BB236C1A}" WorkUnitID="{769E5986-C11D-4C3E-BC8B-3D106DE82A68}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F15F8A5F-D17A-442D-8957-85D03C855C7A}" ShortID="420572452">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sirens" ID="{9CBE1569-4BC0-4BE2-9BDF-A7B93D7D5F9E}" WorkUnitID="{769E5986-C11D-4C3E-BC8B-3D106DE82A68}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ToTense" ID="{DF6BBE1A-8FE9-4264-8551-94341C05FF37}">
+					<ChildrenList>
+						<Action Name="" ID="{704739B7-63A4-4FAC-BE82-027F75783CD5}" ShortID="920306032">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ToTense" ID="{9A901191-1C0E-49C9-B2DD-80BB104BFDCB}" WorkUnitID="{F50162AC-1588-4AAC-A0FB-2866F17607B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ToAmbient" ID="{24ECC535-B4A3-4143-9841-EEDA18F7721D}">
+					<ChildrenList>
+						<Action Name="" ID="{47F0EE0D-9F46-4BD6-B0A1-3C65E3491238}" ShortID="365039946">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ToAmbient" ID="{F9C8121B-773D-40AA-AD38-3DCFAC60396E}" WorkUnitID="{F50162AC-1588-4AAC-A0FB-2866F17607B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

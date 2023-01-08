@@ -1,0 +1,100 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3367814738",
+    "GUID": "{C8BCC652-C652-1652-5252-525252525252}",
+    "Language": "SFX",
+    "Hash": "2627089277",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_95841A59A904435EA4876336A146637D",
+    "ShortName": "SB_95841A59A904435EA4876336A146637D",
+    "Path": "SB_95841A59A904435EA4876336A146637D.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "634235129",
+      "Name": "PlayBirds",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayBirds",
+      "GUID": "{95841A59-A904-435E-A487-6336A146637D}",
+      "MaxAttenuation": "8000.",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "116696268",
+        "Language": "SFX",
+        "ShortName": "Bird7.wav",
+        "Path": "SFX\\Bird7_10C4C929.wem"
+       },
+       {
+        "Id": "147000594",
+        "Language": "SFX",
+        "ShortName": "Bird8.wav",
+        "Path": "SFX\\Bird8_10C4C929.wem"
+       },
+       {
+        "Id": "168316778",
+        "Language": "SFX",
+        "ShortName": "Bird3.wav",
+        "Path": "SFX\\Bird3_10C4C929.wem"
+       },
+       {
+        "Id": "197157819",
+        "Language": "SFX",
+        "ShortName": "Bird4.wav",
+        "Path": "SFX\\Bird4_10C4C929.wem"
+       },
+       {
+        "Id": "246984949",
+        "Language": "SFX",
+        "ShortName": "Bird9.wav",
+        "Path": "SFX\\Bird9_10C4C929.wem"
+       },
+       {
+        "Id": "329181022",
+        "Language": "SFX",
+        "ShortName": "RobinChirp.wav",
+        "Path": "SFX\\RobinChirp_10C4C929.wem"
+       },
+       {
+        "Id": "563609451",
+        "Language": "SFX",
+        "ShortName": "Birds2.wav",
+        "Path": "SFX\\Birds2_10C4C929.wem"
+       },
+       {
+        "Id": "783132890",
+        "Language": "SFX",
+        "ShortName": "Bird5.wav",
+        "Path": "SFX\\Bird5_10C4C929.wem"
+       },
+       {
+        "Id": "806805482",
+        "Language": "SFX",
+        "ShortName": "Bird6.wav",
+        "Path": "SFX\\Bird6_10C4C929.wem"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "932301089",
+      "Name": "RTPC_SFX_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_SFX_Volume",
+      "GUID": "{0206512E-1825-4F46-BC89-7858DFDBCCF4}"
+     }
+    ]
+   }
+  ]
+ }
+}

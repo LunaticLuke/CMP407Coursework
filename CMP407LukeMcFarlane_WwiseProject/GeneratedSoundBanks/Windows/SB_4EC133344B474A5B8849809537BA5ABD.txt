@@ -1,0 +1,25 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4005670443	StartCar			\Default Work Unit\StartCar	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2975532270	DrivingBraking			\Default Work Unit\DrivingBraking	
+	3610345099	PoliceCar			\Default Work Unit\PoliceCar	
+
+Switch	ID	Name	Switch Group			Notes
+	3317037866	Driving	DrivingBraking			
+	3522971943	Braking	DrivingBraking			
+	1382363906	NormalCar	PoliceCar			
+	3610345099	PoliceCar	PoliceCar			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	965656869	RTPC_Doppler			\Default Work Unit\RTPC_Doppler	
+	3342795920	RTPC_Engine_Load			\Default Work Unit\CarEngine\RTPC_Engine_Load	
+	3774151474	RTPC_RPM			\Default Work Unit\CarEngine\RTPC_RPM	
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	713614383	Modulator LFO (Custom)				
+	828206103	Modulator LFO (Custom)				
+
+Effect plug-ins	ID	Name	Type				Notes
+	842873355	Wwise Time Stretch (Custom)	Wwise Time Stretch			
+

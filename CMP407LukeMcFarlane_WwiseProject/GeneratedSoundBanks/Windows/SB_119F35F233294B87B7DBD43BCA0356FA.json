@@ -1,0 +1,256 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1555065843",
+    "GUID": "{5CB06BF3-6BF3-1BF3-F3F3-F3F3F3F3F3F3}",
+    "Language": "SFX",
+    "Hash": "3921408708",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_119F35F233294B87B7DBD43BCA0356FA",
+    "ShortName": "SB_119F35F233294B87B7DBD43BCA0356FA",
+    "Path": "SB_119F35F233294B87B7DBD43BCA0356FA.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "417627684",
+      "Name": "PlayMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayMusic",
+      "GUID": "{119F35F2-3329-4B87-B7DB-D43BCA0356FA}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "74582207",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area II-84 BPM-Loop 6.wav",
+        "Path": "SFX\\BG_Music_Area II-84 BPM-Loop 6_9EDFC787.wem"
+       },
+       {
+        "Id": "181732250",
+        "Language": "SFX",
+        "ShortName": "TransitionIntoTense.wav",
+        "Path": "SFX\\TransitionIntoTense_D79FB2B7.wem"
+       },
+       {
+        "Id": "205489171",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area I-80 BPM-Loop 8.wav",
+        "Path": "SFX\\BG_Music_Area I-80 BPM-Loop 8_9EDFC787.wem"
+       },
+       {
+        "Id": "411127488",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area I-80 BPM-Loop 6.wav",
+        "Path": "SFX\\BG_Music_Area I-80 BPM-Loop 6_9EDFC787.wem"
+       },
+       {
+        "Id": "443522379",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area II-84 BPM-Loop 5.wav",
+        "Path": "SFX\\BG_Music_Area II-84 BPM-Loop 5_9EDFC787.wem"
+       },
+       {
+        "Id": "453446043",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area I-80 BPM-Loop 2.wav",
+        "Path": "SFX\\BG_Music_Area I-80 BPM-Loop 2_9EDFC787.wem"
+       },
+       {
+        "Id": "499891710",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area I-80 BPM-Loop 1.wav",
+        "Path": "SFX\\BG_Music_Area I-80 BPM-Loop 1_9EDFC787.wem"
+       },
+       {
+        "Id": "602358094",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area II-84 BPM-Loop 3.wav",
+        "Path": "SFX\\BG_Music_Area II-84 BPM-Loop 3_9EDFC787.wem"
+       },
+       {
+        "Id": "644222669",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area II-84 BPM-Loop 8.wav",
+        "Path": "SFX\\BG_Music_Area II-84 BPM-Loop 8_9EDFC787.wem"
+       },
+       {
+        "Id": "706259384",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area I-80 BPM-Loop 5.wav",
+        "Path": "SFX\\BG_Music_Area I-80 BPM-Loop 5_9EDFC787.wem"
+       },
+       {
+        "Id": "769434234",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area II-84 BPM-Loop 1.wav",
+        "Path": "SFX\\BG_Music_Area II-84 BPM-Loop 1_9EDFC787.wem"
+       },
+       {
+        "Id": "779794301",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area II-84 BPM-Loop 9.wav",
+        "Path": "SFX\\BG_Music_Area II-84 BPM-Loop 9_9EDFC787.wem"
+       },
+       {
+        "Id": "782295959",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area II-84 BPM-Loop 7.wav",
+        "Path": "SFX\\BG_Music_Area II-84 BPM-Loop 7_9EDFC787.wem"
+       },
+       {
+        "Id": "849624745",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area I-80 BPM-Loop 3.wav",
+        "Path": "SFX\\BG_Music_Area I-80 BPM-Loop 3_9EDFC787.wem"
+       },
+       {
+        "Id": "857975341",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area I-80 BPM-Loop 4.wav",
+        "Path": "SFX\\BG_Music_Area I-80 BPM-Loop 4_9EDFC787.wem"
+       },
+       {
+        "Id": "859354829",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area II-84 BPM-Loop 2.wav",
+        "Path": "SFX\\BG_Music_Area II-84 BPM-Loop 2_9EDFC787.wem"
+       },
+       {
+        "Id": "972238156",
+        "Language": "SFX",
+        "ShortName": "ToAmbient.wav",
+        "Path": "SFX\\ToAmbient_D79FB2B7.wem"
+       },
+       {
+        "Id": "980682965",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area I-80 BPM-Loop 7.wav",
+        "Path": "SFX\\BG_Music_Area I-80 BPM-Loop 7_9EDFC787.wem"
+       },
+       {
+        "Id": "1022032292",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area II-84 BPM-Loop 4.wav",
+        "Path": "SFX\\BG_Music_Area II-84 BPM-Loop 4_9EDFC787.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{BA280C01-777F-4EC4-86FD-B760633C7B7F}",
+        "Media": [
+         {
+          "Id": "205489171"
+         },
+         {
+          "Id": "411127488"
+         },
+         {
+          "Id": "453446043"
+         },
+         {
+          "Id": "499891710"
+         },
+         {
+          "Id": "706259384"
+         },
+         {
+          "Id": "849624745"
+         },
+         {
+          "Id": "857975341"
+         },
+         {
+          "Id": "980682965"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{E0DAEF6B-84C2-4B4C-BDB8-9A257F99B327}",
+        "Media": [
+         {
+          "Id": "74582207"
+         },
+         {
+          "Id": "443522379"
+         },
+         {
+          "Id": "602358094"
+         },
+         {
+          "Id": "644222669"
+         },
+         {
+          "Id": "769434234"
+         },
+         {
+          "Id": "779794301"
+         },
+         {
+          "Id": "782295959"
+         },
+         {
+          "Id": "859354829"
+         },
+         {
+          "Id": "1022032292"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\States\\Default Work Unit\\Music",
+      "GUID": "{CBA50836-1382-4A58-9247-287FA5D6DEF3}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\None",
+        "GUID": "{E6C6BA5C-668B-4F51-B693-98528EE6FEB1}"
+       },
+       {
+        "Id": "77978275",
+        "Name": "Ambient",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Ambient",
+        "GUID": "{BA280C01-777F-4EC4-86FD-B760633C7B7F}"
+       },
+       {
+        "Id": "391998042",
+        "Name": "Tense",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Tense",
+        "GUID": "{E0DAEF6B-84C2-4B4C-BDB8-9A257F99B327}"
+       }
+      ]
+     }
+    ],
+    "Triggers": [
+     {
+      "Id": "1085043954",
+      "Name": "ToAmbient",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\ToAmbient",
+      "GUID": "{F9C8121B-773D-40AA-AD38-3DCFAC60396E}"
+     },
+     {
+      "Id": "3700207115",
+      "Name": "ToTense",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\ToTense",
+      "GUID": "{9A901191-1C0E-49C9-B2DD-80BB104BFDCB}"
+     }
+    ]
+   }
+  ]
+ }
+}

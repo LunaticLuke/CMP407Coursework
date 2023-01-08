@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FC514076-A1CA-4C18-B15F-835C27C104AC}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{FC514076-A1CA-4C18-B15F-835C27C104AC}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Surface" ID="{ADEB1A7A-93DA-4DE3-9F3D-F000F60D5613}">
+					<ChildrenList>
+						<Switch Name="Concrete" ID="{39E7578C-2B59-43D9-960B-2072F97D4164}"/>
+						<Switch Name="Grass" ID="{8C38A8B0-4CE1-49CC-8103-A46067ED1BFF}"/>
+						<Switch Name="Wood" ID="{E060CF42-4BD4-456E-8B82-9BFCAA142FFA}"/>
+						<Switch Name="Tiles" ID="{799E1074-75CD-4D18-A5A6-43A577883153}"/>
+						<Switch Name="Carpet" ID="{D8A6C1B4-F542-43FB-8892-4CC67EF200D2}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="WalkingRunning" ID="{BF3B906D-8F62-4458-AB38-B95E223C98CC}">
+					<ChildrenList>
+						<Switch Name="Walking" ID="{754C953C-8902-46FD-A3CB-9B9454E1642C}"/>
+						<Switch Name="Running" ID="{99A5769A-45AE-4991-933F-3F4AEFF51447}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Ambient" ID="{0A0D5431-2E77-4BFB-BEFE-001C211DB598}">
+					<ChildrenList>
+						<Switch Name="Keyboard" ID="{154991FE-A83D-45F4-91A1-B44EDF401B81}"/>
+						<Switch Name="ChurchOrgan" ID="{43FD0EDB-E048-4BE1-9194-CFD97720CBE0}"/>
+						<Switch Name="Fan" ID="{9A57D5AE-4F6E-4F08-8855-25650970025F}"/>
+						<Switch Name="Fridge" ID="{7891BBF5-93C2-49FB-8DA5-B123CEE7D3E8}"/>
+						<Switch Name="Radio" ID="{35F1993B-12B0-43ED-A1E8-0D84C1AC7F08}"/>
+						<Switch Name="TV" ID="{943EA2C4-32BF-43CC-9168-4FC3EAF41E34}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="DrivingBraking" ID="{E563A160-7478-4A3A-913A-C47D6AC21353}">
+					<ChildrenList>
+						<Switch Name="Driving" ID="{B1FE1E2E-E478-41D7-BACE-52D16ECA915E}"/>
+						<Switch Name="Braking" ID="{DD99B44B-A5A5-4347-B4DC-D99ADC3A8B41}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="PoliceCar" ID="{00FF690F-A731-485E-B032-FC8849F9E050}">
+					<ChildrenList>
+						<Switch Name="PoliceCar" ID="{CD0DEB53-EF48-43F1-8F00-4CAC9FC940E8}"/>
+						<Switch Name="NormalCar" ID="{2BDCA72C-2AC5-4D5A-BD65-DB573906FE17}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

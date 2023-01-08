@@ -1,0 +1,54 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4162097452",
+    "GUID": "{F814912C-912C-112C-2C2C-2C2C2C2C2C2C}",
+    "Language": "SFX",
+    "Hash": "205712182",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_24ECC535B4A341439841EEDA18F7721D",
+    "ShortName": "SB_24ECC535B4A341439841EEDA18F7721D",
+    "Path": "SB_24ECC535B4A341439841EEDA18F7721D.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1085043954",
+      "Name": "ToAmbient",
+      "ObjectPath": "\\Events\\Default Work Unit\\ToAmbient",
+      "GUID": "{24ECC535-B4A3-4143-9841-EEDA18F7721D}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionTrigger": [
+       {
+        "Id": "1085043954",
+        "Name": "ToAmbient",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\ToAmbient",
+        "GUID": "{F9C8121B-773D-40AA-AD38-3DCFAC60396E}"
+       }
+      ]
+     }
+    ],
+    "Triggers": [
+     {
+      "Id": "1085043954",
+      "Name": "ToAmbient",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\ToAmbient",
+      "GUID": "{F9C8121B-773D-40AA-AD38-3DCFAC60396E}"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "611430104",
+    "GUID": "{2471AED8-AED8-1ED8-D8D8-D8D8D8D8D8D8}",
+    "Language": "SFX",
+    "Hash": "1989134417",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_3E97015C36664FB99D66B92BE14C09C7",
+    "ShortName": "SB_3E97015C36664FB99D66B92BE14C09C7",
+    "Path": "SB_3E97015C36664FB99D66B92BE14C09C7.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "3865115666",
+      "Name": "GarageReverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\GarageReverb",
+      "GUID": "{3E97015C-3666-4FB9-9D66-B92BE14C09C7}"
+     }
+    ]
+   }
+  ]
+ }
+}

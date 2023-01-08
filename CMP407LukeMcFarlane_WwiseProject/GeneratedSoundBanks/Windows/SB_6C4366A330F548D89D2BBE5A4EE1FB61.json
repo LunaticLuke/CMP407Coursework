@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3119398299",
+    "GUID": "{B9EE3D9B-3D9B-1D9B-9B9B-9B9B9B9B9B9B}",
+    "Language": "SFX",
+    "Hash": "3832078385",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_6C4366A330F548D89D2BBE5A4EE1FB61",
+    "ShortName": "SB_6C4366A330F548D89D2BBE5A4EE1FB61",
+    "Path": "SB_6C4366A330F548D89D2BBE5A4EE1FB61.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1104863757",
+      "Name": "EnterShop",
+      "ObjectPath": "\\Events\\Default Work Unit\\EnterShop",
+      "GUID": "{6C4366A3-30F5-48D8-9D2B-BE5A4EE1FB61}",
+      "MaxAttenuation": "1000.",
+      "DurationType": "OneShot",
+      "DurationMin": "1.821247",
+      "DurationMax": "1.821247",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "67665187",
+        "Language": "SFX",
+        "ShortName": "Store_Door_Chime-Mike_Koenig-570742973.wav",
+        "Path": "SFX\\Store_Door_Chime-Mike_Koenig-570742973_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

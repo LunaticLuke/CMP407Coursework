@@ -1,0 +1,54 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4000797316",
+    "GUID": "{EE775284-5284-1284-8484-848484848484}",
+    "Language": "SFX",
+    "Hash": "4091949019",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_DF6BBE1A8FE94264855194341C05FF37",
+    "ShortName": "SB_DF6BBE1A8FE94264855194341C05FF37",
+    "Path": "SB_DF6BBE1A8FE94264855194341C05FF37.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3700207115",
+      "Name": "ToTense",
+      "ObjectPath": "\\Events\\Default Work Unit\\ToTense",
+      "GUID": "{DF6BBE1A-8FE9-4264-8551-94341C05FF37}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionTrigger": [
+       {
+        "Id": "3700207115",
+        "Name": "ToTense",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\ToTense",
+        "GUID": "{9A901191-1C0E-49C9-B2DD-80BB104BFDCB}"
+       }
+      ]
+     }
+    ],
+    "Triggers": [
+     {
+      "Id": "3700207115",
+      "Name": "ToTense",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\ToTense",
+      "GUID": "{9A901191-1C0E-49C9-B2DD-80BB104BFDCB}"
+     }
+    ]
+   }
+  ]
+ }
+}

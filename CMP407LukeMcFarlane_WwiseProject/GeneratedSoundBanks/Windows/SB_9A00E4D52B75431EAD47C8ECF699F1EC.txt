@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1181117825	PlayAmbient			\Default Work Unit\PlayAmbient	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	77978275	Ambient			\Default Work Unit\Ambient	
+
+Switch	ID	Name	Switch Group			Notes
+	1183803264	Fan	Ambient			
+	1403540682	Keyboard	Ambient			
+	1568083719	TV	Ambient			
+	2337612214	Fridge	Ambient			
+	2548238350	Radio	Ambient			
+	3632852187	ChurchOrgan	Ambient			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	932301089	RTPC_SFX_Volume			\Default Work Unit\RTPC_SFX_Volume	
+
+Effect plug-ins	ID	Name	Type				Notes
+	59662939	Dialog_Too_Quiet	Wwise Compressor			
+	284513720	Wwise Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	2952825346	Dual_Filters_Radio_Comm	Wwise Parametric EQ			
+	3209444191	Static_Sibilance_Remover_Male	Wwise Parametric EQ			
+

@@ -1,0 +1,181 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "393239870",
+    "GUID": "{BADA9E2D-6C93-4A77-B83A-15E1D2B6C7DB}",
+    "Language": "SFX",
+    "Hash": "2022127998",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
+    "ShortName": "SFX",
+    "Path": "SFX.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3511205013",
+      "Name": "FootstepEvent",
+      "ObjectPath": "\\Events\\Default Work Unit\\FootstepEvent",
+      "GUID": "{D7AAD857-4886-46DD-ADC6-977563528287}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.285896",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "108556348",
+        "Language": "SFX",
+        "ShortName": "Steps_floor-002.wav",
+        "Path": "SFX\\Steps_floor-002_10C4C929.wem"
+       },
+       {
+        "Id": "339765195",
+        "Language": "SFX",
+        "ShortName": "Steps_floor-005.wav",
+        "Path": "SFX\\Steps_floor-005_10C4C929.wem"
+       },
+       {
+        "Id": "396972097",
+        "Language": "SFX",
+        "ShortName": "Steps_floor-004.wav",
+        "Path": "SFX\\Steps_floor-004_10C4C929.wem"
+       },
+       {
+        "Id": "582917407",
+        "Language": "SFX",
+        "ShortName": "Steps_floor-003.wav",
+        "Path": "SFX\\Steps_floor-003_10C4C929.wem"
+       },
+       {
+        "Id": "645910332",
+        "Language": "SFX",
+        "ShortName": "Steps_wood-005.wav",
+        "Path": "SFX\\Steps_wood-005_10C4C929.wem"
+       },
+       {
+        "Id": "712083384",
+        "Language": "SFX",
+        "ShortName": "Steps_floor-001.wav",
+        "Path": "SFX\\Steps_floor-001_10C4C929.wem"
+       },
+       {
+        "Id": "722127345",
+        "Language": "SFX",
+        "ShortName": "Steps_wood-003.wav",
+        "Path": "SFX\\Steps_wood-003_10C4C929.wem"
+       },
+       {
+        "Id": "783709294",
+        "Language": "SFX",
+        "ShortName": "Steps_wood-002.wav",
+        "Path": "SFX\\Steps_wood-002_10C4C929.wem"
+       },
+       {
+        "Id": "1069160229",
+        "Language": "SFX",
+        "ShortName": "Steps_wood-004.wav",
+        "Path": "SFX\\Steps_wood-004_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{8DB1CAE5-7E43-434D-837E-55ECC01305D5}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{C58B599F-AA96-4825-971B-6EF2C31FB6AE}",
+        "Media": [
+         {
+          "Id": "108556348"
+         },
+         {
+          "Id": "339765195"
+         },
+         {
+          "Id": "396972097"
+         },
+         {
+          "Id": "582917407"
+         },
+         {
+          "Id": "712083384"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{8DB1CAE5-7E43-434D-837E-55ECC01305D5}",
+        "Media": [
+         {
+          "Id": "645910332"
+         },
+         {
+          "Id": "722127345"
+         },
+         {
+          "Id": "783709294"
+         },
+         {
+          "Id": "1069160229"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3121495386",
+      "Name": "MovementTypeSwitch",
+      "ObjectPath": "\\Switches\\Default Work Unit\\MovementTypeSwitch",
+      "GUID": "{D428AD2D-C8C5-46CF-8D19-C4E70796F7BF}",
+      "Switches": [
+       {
+        "Id": "340271938",
+        "Name": "Walking",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MovementTypeSwitch\\Walking",
+        "GUID": "{A8850783-06EC-4A43-A7E5-9F71B819548C}"
+       },
+       {
+        "Id": "3863236874",
+        "Name": "Running",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MovementTypeSwitch\\Running",
+        "GUID": "{041EE92A-6C4C-496F-8CB6-DA2B68EE5ED0}"
+       }
+      ]
+     },
+     {
+      "Id": "3631453782",
+      "Name": "SurfaceTypeSwitch",
+      "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceTypeSwitch",
+      "GUID": "{6974D9F8-405E-48E7-8E7F-AB05C83534DB}",
+      "Switches": [
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceTypeSwitch\\Concrete",
+        "GUID": "{C58B599F-AA96-4825-971B-6EF2C31FB6AE}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceTypeSwitch\\Grass",
+        "GUID": "{A7AB5326-558D-4257-A5E0-43C16DA21716}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceTypeSwitch\\Wood",
+        "GUID": "{8DB1CAE5-7E43-434D-837E-55ECC01305D5}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

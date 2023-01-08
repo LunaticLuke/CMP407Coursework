@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{769E5986-C11D-4C3E-BC8B-3D106DE82A68}" SchemaVersion="103" RootDocumentID="{571851EE-389D-4536-BEAF-DFEB2E8281D5}" ParentDocumentID="{571851EE-389D-4536-BEAF-DFEB2E8281D5}">
+	<AudioObjects>
+		<WorkUnit Name="2D Ambience" ID="{769E5986-C11D-4C3E-BC8B-3D106DE82A68}" OwnerID="{571851EE-389D-4536-BEAF-DFEB2E8281D5}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="City Skyline - No Copyright Sound Effects - Audio Library" ID="{CD04D385-1A33-469C-B3DF-A2318574E707}" ShortID="989100148">
+					<PropertyList>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Ambience" ID="{0792D7E6-2E0A-48E8-B327-C14F379C38B1}" WorkUnitID="{27084563-4BFD-4713-AE43-754E89D360B5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SkylineLoop" ID="{F311AC89-9EAE-473E-81F9-40711AC5F635}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="2.567"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SkylineLoop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="590879610"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SkylineLoop" ID="{F311AC89-9EAE-473E-81F9-40711AC5F635}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Cat Sounds" ID="{4C699936-A235-41D0-B90C-9A3042DF9CCB}" ShortID="778778512">
+					<PropertyList>
+						<Property Name="3DPosition" Type="int16" Value="2"/>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>25</Value>
+							</ValueList>
+						</Property>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{E1753448-EA47-4CB2-91C9-59C576B5D2A2}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="250"/>
+											<Property Name="Min" Type="Real64" Value="-250"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{B4D23A75-0E10-4BD9-93D6-7BB8BF8719B7}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="2"/>
+											<Property Name="Min" Type="Real64" Value="-1"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DD5909D-D58A-4DA4-BD6B-3224B0585075}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Ambience" ID="{0792D7E6-2E0A-48E8-B327-C14F379C38B1}" WorkUnitID="{27084563-4BFD-4713-AE43-754E89D360B5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Cat meow 2" ID="{9955F6B6-7669-44F0-9BF1-35BD65954F69}" ShortID="212350439">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DD5909D-D58A-4DA4-BD6B-3224B0585075}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27084563-4BFD-4713-AE43-754E89D360B5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cat meow 2" ID="{59B9CFF2-0549-4CA7-BB09-AA0A45546EC2}">
+									<Language>SFX</Language>
+									<AudioFile>Cat meow 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="742357500"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Cat meow 2" ID="{59B9CFF2-0549-4CA7-BB09-AA0A45546EC2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Cat meow 3" ID="{B7AD9FA6-C6BD-46BD-885B-0D163DD7A842}" ShortID="212736101">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DD5909D-D58A-4DA4-BD6B-3224B0585075}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27084563-4BFD-4713-AE43-754E89D360B5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cat meow 3" ID="{26CA221C-F658-4442-BF1D-F5AB50BFF425}">
+									<Language>SFX</Language>
+									<AudioFile>Cat meow 3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="992020977"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Cat meow 3" ID="{26CA221C-F658-4442-BF1D-F5AB50BFF425}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Cat meow 4" ID="{FADE81C9-7F39-4E6F-A989-A7FAF07A533E}" ShortID="803647862">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DD5909D-D58A-4DA4-BD6B-3224B0585075}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27084563-4BFD-4713-AE43-754E89D360B5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cat meow 4" ID="{DB2962C1-DC46-4619-87C7-49D72119B50E}">
+									<Language>SFX</Language>
+									<AudioFile>Cat meow 4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="721390685"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Cat meow 4" ID="{DB2962C1-DC46-4619-87C7-49D72119B50E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Cat meow1" ID="{059147FA-8286-490C-A41F-A563038527A2}" ShortID="951185615">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DD5909D-D58A-4DA4-BD6B-3224B0585075}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27084563-4BFD-4713-AE43-754E89D360B5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cat meow1" ID="{A05473FC-96AE-4400-AAE8-AAB271634CEA}">
+									<PropertyList>
+										<Property Name="TrimEnd" Type="Real64" Value="1.495"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Cat meow1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="586413945"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Cat meow1" ID="{A05473FC-96AE-4400-AAE8-AAB271634CEA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{A418FE6E-0266-4689-AB7F-2D95CCC32AF5}">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="False"/>
+								<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="5"/>
+							</PropertyList>
+							<ChildrenList>
+								<Path2D Name="Cat Sounds_Path" ID="{17542BFA-81CF-44A6-A1BD-D65B55496D3F}">
+									<PointList>
+										<Point>
+											<XPos>-90.52632</XPos>
+											<YPos>72.41681</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Cat Sounds_Path_01" ID="{194A550D-897B-478B-B5A6-70A6437D1B97}">
+									<PointList>
+										<Point>
+											<XPos>-0.70175</XPos>
+											<YPos>80.82312</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Cat Sounds_Path_02" ID="{A85A46BE-E13F-451C-994E-2ADB0720F80D}">
+									<PointList>
+										<Point>
+											<XPos>84.91228</XPos>
+											<YPos>78.02102</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Cat Sounds_Path_03" ID="{E8EED370-8EDB-426A-BD1B-284C1C82C383}">
+									<PointList>
+										<Point>
+											<XPos>-97.19298</XPos>
+											<YPos>-0.78809</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Cat Sounds_Path_04" ID="{910C58B1-23D3-43B1-AC20-C1D6280881D6}">
+									<PointList>
+										<Point>
+											<XPos>-0.35088</XPos>
+											<YPos>1.31349</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Cat Sounds_Path_05" ID="{9B749A5F-E8C2-4561-ADB0-89C6FE98B644}">
+									<PointList>
+										<Point>
+											<XPos>100</XPos>
+											<YPos>-0.78809</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Cat Sounds_Path_06" ID="{3F34C894-4595-443F-B7FF-A18032C76E3B}">
+									<PointList>
+										<Point>
+											<XPos>-90.87719</XPos>
+											<YPos>-87.65324</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Cat Sounds_Path_07" ID="{A1E88E7F-25A9-4C68-A3CE-002F8697D341}">
+									<PointList>
+										<Point>
+											<XPos>-1.40351</XPos>
+											<YPos>-92.55692</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Cat Sounds_Path_08" ID="{4303C614-E5B1-4527-8B2F-8D939BD99903}">
+									<PointList>
+										<Point>
+											<XPos>88.07018</XPos>
+											<YPos>-87.30298</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+							</ChildrenList>
+						</Position>
+					</PositioningInfo>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Dog Sounds" ID="{D5E2FD18-4A40-4C2E-AF4F-3900BB236C1A}" ShortID="357519553">
+					<PropertyList>
+						<Property Name="3DPosition" Type="int16" Value="2"/>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>25</Value>
+							</ValueList>
+						</Property>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{1B445693-AE6F-457E-8205-CB0E20862B91}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="250"/>
+											<Property Name="Min" Type="Real64" Value="-250"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{E8204654-CCF5-4820-B96D-3E1A3474604C}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="2"/>
+											<Property Name="Min" Type="Real64" Value="-1"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DD5909D-D58A-4DA4-BD6B-3224B0585075}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Ambience" ID="{0792D7E6-2E0A-48E8-B327-C14F379C38B1}" WorkUnitID="{27084563-4BFD-4713-AE43-754E89D360B5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Dog Bark 2" ID="{B90241A5-C107-4F94-907A-DB69DF952F08}" ShortID="126990077">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DD5909D-D58A-4DA4-BD6B-3224B0585075}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27084563-4BFD-4713-AE43-754E89D360B5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="DogBark2" ID="{98D35BE3-3178-4A30-A4C9-EE8F0A621043}">
+									<Language>SFX</Language>
+									<AudioFile>DogBark2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="454763225"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="DogBark2" ID="{98D35BE3-3178-4A30-A4C9-EE8F0A621043}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Dog Bark 1" ID="{DBFB87CA-EA0D-4C39-A0E9-239A2BCC6429}" ShortID="1072022921">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DD5909D-D58A-4DA4-BD6B-3224B0585075}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27084563-4BFD-4713-AE43-754E89D360B5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="DogBark1" ID="{12BFCC9B-547F-41F1-9BB6-8785F02C3B0E}">
+									<Language>SFX</Language>
+									<AudioFile>DogBark1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="894160611"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="DogBark1" ID="{12BFCC9B-547F-41F1-9BB6-8785F02C3B0E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{7801D634-8DDA-4788-8E5B-F7491AC2A651}">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="False"/>
+								<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="5"/>
+							</PropertyList>
+							<ChildrenList>
+								<Path2D Name="Cat Sounds_Path" ID="{79F62A40-0611-4F06-8E68-D5F45D20A6A0}">
+									<PointList>
+										<Point>
+											<XPos>-90.52632</XPos>
+											<YPos>72.41681</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Cat Sounds_Path_01" ID="{165E9B39-8F50-4F52-8569-5E2E92390709}">
+									<PointList>
+										<Point>
+											<XPos>-0.70175</XPos>
+											<YPos>80.82312</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Cat Sounds_Path_02" ID="{C4F9C4DD-03EE-4542-8EB1-945DBD1F80F8}">
+									<PointList>
+										<Point>
+											<XPos>84.91228</XPos>
+											<YPos>78.02102</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Cat Sounds_Path_03" ID="{FC660A42-BBFF-4106-8926-8C68C3367436}">
+									<PointList>
+										<Point>
+											<XPos>-97.19298</XPos>
+											<YPos>-0.78809</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Cat Sounds_Path_04" ID="{FFF2102A-D8EA-4F7B-A103-3C6DB7B6C0B4}">
+									<PointList>
+										<Point>
+											<XPos>-0.35088</XPos>
+											<YPos>1.31349</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Cat Sounds_Path_05" ID="{95D2DD75-33CF-43E5-882F-86E330C042F2}">
+									<PointList>
+										<Point>
+											<XPos>100</XPos>
+											<YPos>-0.78809</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Cat Sounds_Path_06" ID="{176A31A7-148C-46C9-8E2D-97D2B3A04B4B}">
+									<PointList>
+										<Point>
+											<XPos>-90.87719</XPos>
+											<YPos>-87.65324</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Cat Sounds_Path_07" ID="{A036C2C9-26F2-41EF-89CF-BB515CC615DA}">
+									<PointList>
+										<Point>
+											<XPos>-1.40351</XPos>
+											<YPos>-92.55692</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Cat Sounds_Path_08" ID="{4E8135B9-7BDB-4D88-A4B5-DB347A624959}">
+									<PointList>
+										<Point>
+											<XPos>88.07018</XPos>
+											<YPos>-87.30298</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+							</ChildrenList>
+						</Position>
+					</PositioningInfo>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Sirens" ID="{9CBE1569-4BC0-4BE2-9BDF-A7B93D7D5F9E}" ShortID="434965069">
+					<PropertyList>
+						<Property Name="3DPosition" Type="int16" Value="2"/>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{9124EBDA-FF8F-4E7A-BD6A-D0ED24E7C57D}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="4"/>
+											<Property Name="Min" Type="Real64" Value="-1"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-25</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DD5909D-D58A-4DA4-BD6B-3224B0585075}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Ambience" ID="{0792D7E6-2E0A-48E8-B327-C14F379C38B1}" WorkUnitID="{27084563-4BFD-4713-AE43-754E89D360B5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Siren_01" ID="{67557F2E-BFEF-473D-BD2D-CA53E361736A}" ShortID="939448808">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int32" Value="4"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>35</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DD5909D-D58A-4DA4-BD6B-3224B0585075}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27084563-4BFD-4713-AE43-754E89D360B5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Siren" ID="{98957A8F-74A0-493F-8297-B1FBF52F3A04}">
+									<Language>SFX</Language>
+									<AudioFile>Siren.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="500971411"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="AmbulanceSiren" ID="{5ADE8768-B957-44F5-A873-2B2D91BD5B3A}">
+									<Language>SFX</Language>
+									<AudioFile>AmbulanceSiren.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="760541756"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="AmbulanceSiren" ID="{5ADE8768-B957-44F5-A873-2B2D91BD5B3A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Siren_02" ID="{8AF97D8B-7EEB-40AF-9398-76386B808F75}" ShortID="818667738">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="2"/>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="LoopCount" Type="int32" Value="4"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>35</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DD5909D-D58A-4DA4-BD6B-3224B0585075}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27084563-4BFD-4713-AE43-754E89D360B5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Siren" ID="{4020D47A-9C3C-4DC3-AF59-DFAEE0325C8B}">
+									<Language>SFX</Language>
+									<AudioFile>Siren.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="500971411"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="AmbulanceSiren" ID="{B9B2E880-EC4C-4855-9170-2D4FA064EF88}">
+									<Language>SFX</Language>
+									<AudioFile>AmbulanceSiren.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="760541756"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{80266895-C722-4A8E-BFD3-E2560EE5F67D}">
+									<PropertyList>
+										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="7"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="Sirens_Path" ID="{E7FDFC34-B08C-4BC0-BAC1-255138CAC7E1}">
+											<PropertyList>
+												<Property Name="RandomX" Type="Real64" Value="20"/>
+												<Property Name="RandomY" Type="Real64" Value="20"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>-1.40351</XPos>
+													<YPos>78.02102</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>21.0526315789474</XPos>
+													<YPos>70.2276707530648</YPos>
+													<Flags>0</Flags>
+													<Time>1000</Time>
+												</Point>
+												<Point>
+													<XPos>35.0877192982456</XPos>
+													<YPos>60.7705779334501</YPos>
+													<Flags>0</Flags>
+													<Time>2000</Time>
+												</Point>
+												<Point>
+													<XPos>46.3157894736842</XPos>
+													<YPos>43.9579684763573</YPos>
+													<Flags>0</Flags>
+													<Time>3000</Time>
+												</Point>
+												<Point>
+													<XPos>57.1929824561404</XPos>
+													<YPos>25.7443082311734</YPos>
+													<Flags>0</Flags>
+													<Time>4000</Time>
+												</Point>
+												<Point>
+													<XPos>65.9649122807018</XPos>
+													<YPos>10.6830122591944</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Sirens_Path_01" ID="{8C325373-8E5D-48DF-9448-0DCED1CBC411}">
+											<PropertyList>
+												<Property Name="RandomX" Type="Real64" Value="20"/>
+												<Property Name="RandomY" Type="Real64" Value="20"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>59.29825</XPos>
+													<YPos>-0.43783</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>65.6140350877193</XPos>
+													<YPos>-21.1908931698774</YPos>
+													<Flags>0</Flags>
+													<Time>833</Time>
+												</Point>
+												<Point>
+													<XPos>68.4210526315789</XPos>
+													<YPos>-42.5569176882662</YPos>
+													<Flags>0</Flags>
+													<Time>1666</Time>
+												</Point>
+												<Point>
+													<XPos>57.5438596491228</XPos>
+													<YPos>-53.415061295972</YPos>
+													<Flags>0</Flags>
+													<Time>2500</Time>
+												</Point>
+												<Point>
+													<XPos>43.5087719298245</XPos>
+													<YPos>-67.0753064798599</YPos>
+													<Flags>0</Flags>
+													<Time>3333</Time>
+												</Point>
+												<Point>
+													<XPos>26.3157894736842</XPos>
+													<YPos>-75.8318739054291</YPos>
+													<Flags>0</Flags>
+													<Time>4166</Time>
+												</Point>
+												<Point>
+													<XPos>15.0877192982456</XPos>
+													<YPos>-80.3852889667251</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Sirens_Path_02" ID="{13FD36D5-5976-45EA-B140-70F18A15C92B}">
+											<PropertyList>
+												<Property Name="RandomX" Type="Real64" Value="20"/>
+												<Property Name="RandomY" Type="Real64" Value="20"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>0.70175</XPos>
+													<YPos>-35.81436</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>-9.12280701754386</XPos>
+													<YPos>-41.5061295971979</YPos>
+													<Flags>0</Flags>
+													<Time>1000</Time>
+												</Point>
+												<Point>
+													<XPos>-36.4912280701754</XPos>
+													<YPos>-41.1558669001751</YPos>
+													<Flags>0</Flags>
+													<Time>2000</Time>
+												</Point>
+												<Point>
+													<XPos>-60.7017543859649</XPos>
+													<YPos>-34.8511383537653</YPos>
+													<Flags>0</Flags>
+													<Time>3000</Time>
+												</Point>
+												<Point>
+													<XPos>-78.9473684210526</XPos>
+													<YPos>-23.292469352014</YPos>
+													<Flags>0</Flags>
+													<Time>4000</Time>
+												</Point>
+												<Point>
+													<XPos>-84.5614035087719</XPos>
+													<YPos>-11.3835376532399</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Sirens_Path_03" ID="{516DCD77-FB15-4F90-AC56-063BC4A1FBAF}">
+											<PropertyList>
+												<Property Name="RandomX" Type="Real64" Value="20"/>
+												<Property Name="RandomY" Type="Real64" Value="20"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>-77.19298</XPos>
+													<YPos>2.71454</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>-74.03509</XPos>
+													<YPos>38.0035</YPos>
+													<Flags>0</Flags>
+													<Time>1000</Time>
+												</Point>
+												<Point>
+													<XPos>-67.719298245614</XPos>
+													<YPos>55.5166374781086</YPos>
+													<Flags>0</Flags>
+													<Time>2000</Time>
+												</Point>
+												<Point>
+													<XPos>-47.719298245614</XPos>
+													<YPos>78.2837127845884</YPos>
+													<Flags>0</Flags>
+													<Time>3000</Time>
+												</Point>
+												<Point>
+													<XPos>-20</XPos>
+													<YPos>78.6339754816112</YPos>
+													<Flags>0</Flags>
+													<Time>4000</Time>
+												</Point>
+												<Point>
+													<XPos>-12.6315789473684</XPos>
+													<YPos>89.1418563922942</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Siren" ID="{4020D47A-9C3C-4DC3-AF59-DFAEE0325C8B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{C2896896-4FD1-4E5E-8EB0-439494334302}">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="False"/>
+								<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="7"/>
+							</PropertyList>
+							<ChildrenList>
+								<Path2D Name="Sirens_Path" ID="{57AB561E-E7FC-4D9D-820E-1FCF0C4FE564}">
+									<PropertyList>
+										<Property Name="RandomX" Type="Real64" Value="20"/>
+										<Property Name="RandomY" Type="Real64" Value="20"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>-1.40351</XPos>
+											<YPos>78.02102</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>21.0526315789474</XPos>
+											<YPos>70.2276707530648</YPos>
+											<Flags>0</Flags>
+											<Time>1000</Time>
+										</Point>
+										<Point>
+											<XPos>35.0877192982456</XPos>
+											<YPos>60.7705779334501</YPos>
+											<Flags>0</Flags>
+											<Time>2000</Time>
+										</Point>
+										<Point>
+											<XPos>46.3157894736842</XPos>
+											<YPos>43.9579684763573</YPos>
+											<Flags>0</Flags>
+											<Time>3000</Time>
+										</Point>
+										<Point>
+											<XPos>57.1929824561404</XPos>
+											<YPos>25.7443082311734</YPos>
+											<Flags>0</Flags>
+											<Time>4000</Time>
+										</Point>
+										<Point>
+											<XPos>65.9649122807018</XPos>
+											<YPos>10.6830122591944</YPos>
+											<Flags>0</Flags>
+											<Time>5000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Sirens_Path_01" ID="{68F15874-FE88-4C20-9A68-85A29ADB69A7}">
+									<PropertyList>
+										<Property Name="RandomX" Type="Real64" Value="20"/>
+										<Property Name="RandomY" Type="Real64" Value="20"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>59.29825</XPos>
+											<YPos>-0.43783</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>65.6140350877193</XPos>
+											<YPos>-21.1908931698774</YPos>
+											<Flags>0</Flags>
+											<Time>833</Time>
+										</Point>
+										<Point>
+											<XPos>68.4210526315789</XPos>
+											<YPos>-42.5569176882662</YPos>
+											<Flags>0</Flags>
+											<Time>1666</Time>
+										</Point>
+										<Point>
+											<XPos>57.5438596491228</XPos>
+											<YPos>-53.415061295972</YPos>
+											<Flags>0</Flags>
+											<Time>2500</Time>
+										</Point>
+										<Point>
+											<XPos>43.5087719298245</XPos>
+											<YPos>-67.0753064798599</YPos>
+											<Flags>0</Flags>
+											<Time>3333</Time>
+										</Point>
+										<Point>
+											<XPos>26.3157894736842</XPos>
+											<YPos>-75.8318739054291</YPos>
+											<Flags>0</Flags>
+											<Time>4166</Time>
+										</Point>
+										<Point>
+											<XPos>15.0877192982456</XPos>
+											<YPos>-80.3852889667251</YPos>
+											<Flags>0</Flags>
+											<Time>5000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Sirens_Path_02" ID="{DEB12233-7981-4E9D-9F1A-DD22D8BBE2FC}">
+									<PropertyList>
+										<Property Name="RandomX" Type="Real64" Value="20"/>
+										<Property Name="RandomY" Type="Real64" Value="20"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0.70175</XPos>
+											<YPos>-35.81436</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>-9.12280701754386</XPos>
+											<YPos>-41.5061295971979</YPos>
+											<Flags>0</Flags>
+											<Time>1000</Time>
+										</Point>
+										<Point>
+											<XPos>-36.4912280701754</XPos>
+											<YPos>-41.1558669001751</YPos>
+											<Flags>0</Flags>
+											<Time>2000</Time>
+										</Point>
+										<Point>
+											<XPos>-60.7017543859649</XPos>
+											<YPos>-34.8511383537653</YPos>
+											<Flags>0</Flags>
+											<Time>3000</Time>
+										</Point>
+										<Point>
+											<XPos>-78.9473684210526</XPos>
+											<YPos>-23.292469352014</YPos>
+											<Flags>0</Flags>
+											<Time>4000</Time>
+										</Point>
+										<Point>
+											<XPos>-84.5614035087719</XPos>
+											<YPos>-11.3835376532399</YPos>
+											<Flags>0</Flags>
+											<Time>5000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Sirens_Path_03" ID="{A1C106A4-0D81-4A56-8C00-811C804E3F60}">
+									<PropertyList>
+										<Property Name="RandomX" Type="Real64" Value="20"/>
+										<Property Name="RandomY" Type="Real64" Value="20"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>-77.19298</XPos>
+											<YPos>2.71454</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>-74.03509</XPos>
+											<YPos>38.0035</YPos>
+											<Flags>0</Flags>
+											<Time>1000</Time>
+										</Point>
+										<Point>
+											<XPos>-67.719298245614</XPos>
+											<YPos>55.5166374781086</YPos>
+											<Flags>0</Flags>
+											<Time>2000</Time>
+										</Point>
+										<Point>
+											<XPos>-47.719298245614</XPos>
+											<YPos>78.2837127845884</YPos>
+											<Flags>0</Flags>
+											<Time>3000</Time>
+										</Point>
+										<Point>
+											<XPos>-20</XPos>
+											<YPos>78.6339754816112</YPos>
+											<Flags>0</Flags>
+											<Time>4000</Time>
+										</Point>
+										<Point>
+											<XPos>-12.6315789473684</XPos>
+											<YPos>89.1418563922942</YPos>
+											<Flags>0</Flags>
+											<Time>5000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+							</ChildrenList>
+						</Position>
+					</PositioningInfo>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

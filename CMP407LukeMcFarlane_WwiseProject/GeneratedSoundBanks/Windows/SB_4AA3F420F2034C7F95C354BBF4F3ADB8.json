@@ -1,0 +1,34 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4121213018",
+    "GUID": "{F5A4B85A-B85A-185A-5A5A-5A5A5A5A5A5A}",
+    "Language": "SFX",
+    "Hash": "946086909",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_4AA3F420F2034C7F95C354BBF4F3ADB8",
+    "ShortName": "SB_4AA3F420F2034C7F95C354BBF4F3ADB8",
+    "Path": "SB_4AA3F420F2034C7F95C354BBF4F3ADB8.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "1160295760",
+      "Name": "EmptySmallRoomReverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\EmptySmallRoomReverb",
+      "GUID": "{4AA3F420-F203-4C7F-95C3-54BBF4F3ADB8}"
+     }
+    ]
+   }
+  ]
+ }
+}

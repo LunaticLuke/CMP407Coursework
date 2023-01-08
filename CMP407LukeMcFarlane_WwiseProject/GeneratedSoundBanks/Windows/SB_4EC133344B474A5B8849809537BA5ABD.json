@@ -1,0 +1,298 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2652371936",
+    "GUID": "{9E17FBE0-FBE0-1BE0-E0E0-E0E0E0E0E0E0}",
+    "Language": "SFX",
+    "Hash": "1281719426",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_4EC133344B474A5B8849809537BA5ABD",
+    "ShortName": "SB_4EC133344B474A5B8849809537BA5ABD",
+    "Path": "SB_4EC133344B474A5B8849809537BA5ABD.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "4005670443",
+      "Name": "StartCar",
+      "ObjectPath": "\\Events\\Default Work Unit\\StartCar",
+      "GUID": "{4EC13334-4B47-4A5B-8849-809537BA5ABD}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "134790551",
+        "Language": "SFX",
+        "ShortName": "Porsche_Outside_On-Load_6000_01.wav",
+        "Path": "SFX\\Porsche_Outside_On-Load_6000_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "196883218",
+        "Language": "SFX",
+        "ShortName": "Porsche_Outside_Off-Load_6000_01.wav",
+        "Path": "SFX\\Porsche_Outside_Off-Load_6000_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "265247277",
+        "Language": "SFX",
+        "ShortName": "Porsche_Outside_Off-Load_5000_01.wav",
+        "Path": "SFX\\Porsche_Outside_Off-Load_5000_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "411153619",
+        "Language": "SFX",
+        "ShortName": "Porsche_Outside_Off-Load_2000_01.wav",
+        "Path": "SFX\\Porsche_Outside_Off-Load_2000_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "431334071",
+        "Language": "SFX",
+        "ShortName": "Porsche_Outside_On-Load_4000_01.wav",
+        "Path": "SFX\\Porsche_Outside_On-Load_4000_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "436124512",
+        "Language": "SFX",
+        "ShortName": "Porsche_Outside_Off-Load_4000_01.wav",
+        "Path": "SFX\\Porsche_Outside_Off-Load_4000_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "491838561",
+        "Language": "SFX",
+        "ShortName": "Porsche_Outside_Idle_1000_01.wav",
+        "Path": "SFX\\Porsche_Outside_Idle_1000_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "619408883",
+        "Language": "SFX",
+        "ShortName": "CarHorn.wav",
+        "Path": "SFX\\CarHorn_10C4C929.wem"
+       },
+       {
+        "Id": "660589632",
+        "Language": "SFX",
+        "ShortName": "Porsche_Outside_Off-Load_3000_01.wav",
+        "Path": "SFX\\Porsche_Outside_Off-Load_3000_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "704539158",
+        "Language": "SFX",
+        "ShortName": "Porsche_Outside_On-Load_2000_01.wav",
+        "Path": "SFX\\Porsche_Outside_On-Load_2000_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "822396792",
+        "Language": "SFX",
+        "ShortName": "Siren.wav",
+        "Path": "SFX\\Siren_D79FB2B7.wem"
+       },
+       {
+        "Id": "875877574",
+        "Language": "SFX",
+        "ShortName": "Porsche_Outside_On-Load_5000_01.wav",
+        "Path": "SFX\\Porsche_Outside_On-Load_5000_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "1040427121",
+        "Language": "SFX",
+        "ShortName": "CarBrake.wav",
+        "Path": "SFX\\CarBrake_10C4C929.wem"
+       },
+       {
+        "Id": "1040764020",
+        "Language": "SFX",
+        "ShortName": "Porsche_Outside_On-Load_3000_01.wav",
+        "Path": "SFX\\Porsche_Outside_On-Load_3000_01_D79FB2B7.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{B1FE1E2E-E478-41D7-BACE-52D16ECA915E}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{B1FE1E2E-E478-41D7-BACE-52D16ECA915E}",
+        "DefaultSwitchValue": "{2BDCA72C-2AC5-4D5A-BD65-DB573906FE17}",
+        "Media": [
+         {
+          "Id": "134790551"
+         },
+         {
+          "Id": "196883218"
+         },
+         {
+          "Id": "265247277"
+         },
+         {
+          "Id": "411153619"
+         },
+         {
+          "Id": "431334071"
+         },
+         {
+          "Id": "436124512"
+         },
+         {
+          "Id": "491838561"
+         },
+         {
+          "Id": "660589632"
+         },
+         {
+          "Id": "704539158"
+         },
+         {
+          "Id": "875877574"
+         },
+         {
+          "Id": "1040764020"
+         }
+        ],
+        "Children": [
+         {
+          "SwitchValue": "{CD0DEB53-EF48-43F1-8F00-4CAC9FC940E8}",
+          "Media": [
+           {
+            "Id": "822396792"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{DD99B44B-A5A5-4347-B4DC-D99ADC3A8B41}",
+        "DefaultSwitchValue": "{2BDCA72C-2AC5-4D5A-BD65-DB573906FE17}",
+        "Media": [
+         {
+          "Id": "134790551"
+         },
+         {
+          "Id": "196883218"
+         },
+         {
+          "Id": "265247277"
+         },
+         {
+          "Id": "411153619"
+         },
+         {
+          "Id": "431334071"
+         },
+         {
+          "Id": "436124512"
+         },
+         {
+          "Id": "491838561"
+         },
+         {
+          "Id": "619408883"
+         },
+         {
+          "Id": "660589632"
+         },
+         {
+          "Id": "704539158"
+         },
+         {
+          "Id": "875877574"
+         },
+         {
+          "Id": "1040427121"
+         },
+         {
+          "Id": "1040764020"
+         }
+        ],
+        "Children": [
+         {
+          "SwitchValue": "{CD0DEB53-EF48-43F1-8F00-4CAC9FC940E8}",
+          "Media": [
+           {
+            "Id": "822396792"
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1160295760",
+        "Name": "EmptySmallRoomReverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\EmptySmallRoomReverb",
+        "GUID": "{4AA3F420-F203-4C7F-95C3-54BBF4F3ADB8}"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "965656869",
+      "Name": "RTPC_Doppler",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_Doppler",
+      "GUID": "{0975B7CF-F0E0-40AC-9F79-0C3CFD244205}"
+     },
+     {
+      "Id": "3342795920",
+      "Name": "RTPC_Engine_Load",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\CarEngine\\RTPC_Engine_Load",
+      "GUID": "{15DF3B17-1B47-4B39-8BEF-C917966D61C6}"
+     },
+     {
+      "Id": "3774151474",
+      "Name": "RTPC_RPM",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\CarEngine\\RTPC_RPM",
+      "GUID": "{D78F3331-35AD-4AC7-A025-6EF1C7EB5E60}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2975532270",
+      "Name": "DrivingBraking",
+      "ObjectPath": "\\Switches\\Default Work Unit\\DrivingBraking",
+      "GUID": "{E563A160-7478-4A3A-913A-C47D6AC21353}",
+      "Switches": [
+       {
+        "Id": "3317037866",
+        "Name": "Driving",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DrivingBraking\\Driving",
+        "GUID": "{B1FE1E2E-E478-41D7-BACE-52D16ECA915E}"
+       },
+       {
+        "Id": "3522971943",
+        "Name": "Braking",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DrivingBraking\\Braking",
+        "GUID": "{DD99B44B-A5A5-4347-B4DC-D99ADC3A8B41}"
+       }
+      ]
+     },
+     {
+      "Id": "3610345099",
+      "Name": "PoliceCar",
+      "ObjectPath": "\\Switches\\Default Work Unit\\PoliceCar",
+      "GUID": "{00FF690F-A731-485E-B032-FC8849F9E050}",
+      "Switches": [
+       {
+        "Id": "3610345099",
+        "Name": "PoliceCar",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PoliceCar\\PoliceCar",
+        "GUID": "{CD0DEB53-EF48-43F1-8F00-4CAC9FC940E8}"
+       },
+       {
+        "Id": "1382363906",
+        "Name": "NormalCar",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PoliceCar\\NormalCar",
+        "GUID": "{2BDCA72C-2AC5-4D5A-BD65-DB573906FE17}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

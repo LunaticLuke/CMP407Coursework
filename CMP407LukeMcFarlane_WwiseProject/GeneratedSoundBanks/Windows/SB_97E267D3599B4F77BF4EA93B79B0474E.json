@@ -1,0 +1,91 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "655862525",
+    "GUID": "{2717AAFD-AAFD-1AFD-FDFD-FDFDFDFDFDFD}",
+    "Language": "SFX",
+    "Hash": "19564268",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_97E267D3599B4F77BF4EA93B79B0474E",
+    "ShortName": "SB_97E267D3599B4F77BF4EA93B79B0474E",
+    "Path": "SB_97E267D3599B4F77BF4EA93B79B0474E.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "574697901",
+      "Name": "Play2DAmbience",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play2DAmbience",
+      "GUID": "{97E267D3-599B-4F77-BF4E-A93B79B0474E}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "454763225",
+        "Language": "SFX",
+        "ShortName": "DogBark2.wav",
+        "Path": "SFX\\DogBark2_10C4C929.wem"
+       },
+       {
+        "Id": "500971411",
+        "Language": "SFX",
+        "ShortName": "Siren.wav",
+        "Path": "SFX\\Siren_10C4C929.wem"
+       },
+       {
+        "Id": "586413945",
+        "Language": "SFX",
+        "ShortName": "Cat meow1.wav",
+        "Path": "SFX\\Cat meow1_576F1116.wem"
+       },
+       {
+        "Id": "652527387",
+        "Language": "SFX",
+        "ShortName": "City Skyline - No Copyright Sound Effects - Audio Library.wav",
+        "Path": "SFX\\City Skyline - No Copyright Sound Effects - Audio Library_84EB2297.wem"
+       },
+       {
+        "Id": "721390685",
+        "Language": "SFX",
+        "ShortName": "Cat meow 4.wav",
+        "Path": "SFX\\Cat meow 4_10C4C929.wem"
+       },
+       {
+        "Id": "742357500",
+        "Language": "SFX",
+        "ShortName": "Cat meow 2.wav",
+        "Path": "SFX\\Cat meow 2_10C4C929.wem"
+       },
+       {
+        "Id": "760541756",
+        "Language": "SFX",
+        "ShortName": "AmbulanceSiren.wav",
+        "Path": "SFX\\AmbulanceSiren_10C4C929.wem"
+       },
+       {
+        "Id": "894160611",
+        "Language": "SFX",
+        "ShortName": "DogBark1.wav",
+        "Path": "SFX\\DogBark1_10C4C929.wem"
+       },
+       {
+        "Id": "992020977",
+        "Language": "SFX",
+        "ShortName": "Cat meow 3.wav",
+        "Path": "SFX\\Cat meow 3_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

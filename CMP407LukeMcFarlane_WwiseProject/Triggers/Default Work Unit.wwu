@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F50162AC-1588-4AAC-A0FB-2866F17607B1}" SchemaVersion="103">
+	<Triggers>
+		<WorkUnit Name="Default Work Unit" ID="{F50162AC-1588-4AAC-A0FB-2866F17607B1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="ToTense" ID="{9A901191-1C0E-49C9-B2DD-80BB104BFDCB}"/>
+				<Trigger Name="ToAmbient" ID="{F9C8121B-773D-40AA-AD38-3DCFAC60396E}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

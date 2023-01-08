@@ -1,0 +1,38 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Default Work Unit\Music	
+
+State	ID	Name	State Group			Notes
+	77978275	Ambient	Music			
+	391998042	Tense	Music			
+	748895195	None	Music			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	385339341	RTPC_Footsteps_Volume			\Default Work Unit\RTPC_Footsteps_Volume	
+	674192536	RTPC_Ambience_Volume			\Default Work Unit\RTPC_Ambience_Volume	
+	932301089	RTPC_SFX_Volume			\Default Work Unit\RTPC_SFX_Volume	
+	1324113910	RTPC_Vehicle_Volume			\Default Work Unit\RTPC_Vehicle_Volume	
+	1596647065	RTPC_Music_Volume			\Default Work Unit\RTPC_Music_Volume	
+	2564988978	RTPC_Master_Volume			\Default Work Unit\RTPC_Master_Volume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Master Audio Bus\SFX\Ambience	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	971393558	Vehicles			\Default Work Unit\Master Audio Bus\SFX\Vehicles	
+	2385628198	Footsteps			\Default Work Unit\Master Audio Bus\SFX\Footsteps	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1160295760	EmptySmallRoomReverb			\Default Work Unit\Master Audio Bus\EmptySmallRoomReverb	
+	2705646932	ChurchReverb			\Default Work Unit\Master Audio Bus\ChurchReverb	
+	3865115666	GarageReverb			\Default Work Unit\Master Audio Bus\GarageReverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1159390747	Room_Medium_Tiled	Wwise RoomVerb			
+	2849147824	Medium	Wwise RoomVerb			
+	3546444380	Big_Garage1	Wwise Matrix Reverb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

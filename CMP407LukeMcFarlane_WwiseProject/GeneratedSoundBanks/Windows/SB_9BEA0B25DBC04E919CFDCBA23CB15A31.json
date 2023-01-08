@@ -1,0 +1,332 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "213461596",
+    "GUID": "{0CB92A5C-2A5C-1A5C-5C5C-5C5C5C5C5C5C}",
+    "Language": "SFX",
+    "Hash": "2819085797",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_9BEA0B25DBC04E919CFDCBA23CB15A31",
+    "ShortName": "SB_9BEA0B25DBC04E919CFDCBA23CB15A31",
+    "Path": "SB_9BEA0B25DBC04E919CFDCBA23CB15A31.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps",
+      "GUID": "{9BEA0B25-DBC0-4E91-9CFD-CBA23CB15A31}",
+      "MaxAttenuation": "1500.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.036364",
+      "DurationMax": "0.350532",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "24151118",
+        "Language": "SFX",
+        "ShortName": "Steps_dirt-001.wav",
+        "Path": "SFX\\Steps_dirt-001_10C4C929.wem"
+       },
+       {
+        "Id": "28191928",
+        "Language": "SFX",
+        "ShortName": "Steps_tiles-001.wav",
+        "Path": "SFX\\Steps_tiles-001_10C4C929.wem"
+       },
+       {
+        "Id": "93001279",
+        "Language": "SFX",
+        "ShortName": "Steps_carpet-001.wav",
+        "Path": "SFX\\Steps_carpet-001_10C4C929.wem"
+       },
+       {
+        "Id": "108556348",
+        "Language": "SFX",
+        "ShortName": "Steps_floor-002.wav",
+        "Path": "SFX\\Steps_floor-002_10C4C929.wem"
+       },
+       {
+        "Id": "201616585",
+        "Language": "SFX",
+        "ShortName": "Steps_tiles-005.wav",
+        "Path": "SFX\\Steps_tiles-005_10C4C929.wem"
+       },
+       {
+        "Id": "242030817",
+        "Language": "SFX",
+        "ShortName": "Steps_dirt-005.wav",
+        "Path": "SFX\\Steps_dirt-005_10C4C929.wem"
+       },
+       {
+        "Id": "308244502",
+        "Language": "SFX",
+        "ShortName": "Steps_dirt-003.wav",
+        "Path": "SFX\\Steps_dirt-003_10C4C929.wem"
+       },
+       {
+        "Id": "339765195",
+        "Language": "SFX",
+        "ShortName": "Steps_floor-005.wav",
+        "Path": "SFX\\Steps_floor-005_10C4C929.wem"
+       },
+       {
+        "Id": "396972097",
+        "Language": "SFX",
+        "ShortName": "Steps_floor-004.wav",
+        "Path": "SFX\\Steps_floor-004_10C4C929.wem"
+       },
+       {
+        "Id": "415328929",
+        "Language": "SFX",
+        "ShortName": "Steps_tiles-004.wav",
+        "Path": "SFX\\Steps_tiles-004_10C4C929.wem"
+       },
+       {
+        "Id": "448032196",
+        "Language": "SFX",
+        "ShortName": "Steps_dirt-004.wav",
+        "Path": "SFX\\Steps_dirt-004_10C4C929.wem"
+       },
+       {
+        "Id": "495876682",
+        "Language": "SFX",
+        "ShortName": "Steps_dirt-002.wav",
+        "Path": "SFX\\Steps_dirt-002_10C4C929.wem"
+       },
+       {
+        "Id": "582917407",
+        "Language": "SFX",
+        "ShortName": "Steps_floor-003.wav",
+        "Path": "SFX\\Steps_floor-003_10C4C929.wem"
+       },
+       {
+        "Id": "586447179",
+        "Language": "SFX",
+        "ShortName": "Steps_carpet-005.wav",
+        "Path": "SFX\\Steps_carpet-005_10C4C929.wem"
+       },
+       {
+        "Id": "629470189",
+        "Language": "SFX",
+        "ShortName": "Steps_wood-001.wav",
+        "Path": "SFX\\Steps_wood-001_10C4C929.wem"
+       },
+       {
+        "Id": "645910332",
+        "Language": "SFX",
+        "ShortName": "Steps_wood-005.wav",
+        "Path": "SFX\\Steps_wood-005_10C4C929.wem"
+       },
+       {
+        "Id": "712083384",
+        "Language": "SFX",
+        "ShortName": "Steps_floor-001.wav",
+        "Path": "SFX\\Steps_floor-001_10C4C929.wem"
+       },
+       {
+        "Id": "722127345",
+        "Language": "SFX",
+        "ShortName": "Steps_wood-003.wav",
+        "Path": "SFX\\Steps_wood-003_10C4C929.wem"
+       },
+       {
+        "Id": "783709294",
+        "Language": "SFX",
+        "ShortName": "Steps_wood-002.wav",
+        "Path": "SFX\\Steps_wood-002_10C4C929.wem"
+       },
+       {
+        "Id": "816079863",
+        "Language": "SFX",
+        "ShortName": "Steps_carpet-004.wav",
+        "Path": "SFX\\Steps_carpet-004_10C4C929.wem"
+       },
+       {
+        "Id": "879211421",
+        "Language": "SFX",
+        "ShortName": "Steps_carpet-002.wav",
+        "Path": "SFX\\Steps_carpet-002_10C4C929.wem"
+       },
+       {
+        "Id": "883286202",
+        "Language": "SFX",
+        "ShortName": "Steps_carpet-003.wav",
+        "Path": "SFX\\Steps_carpet-003_10C4C929.wem"
+       },
+       {
+        "Id": "994066503",
+        "Language": "SFX",
+        "ShortName": "Steps_tiles-002.wav",
+        "Path": "SFX\\Steps_tiles-002_10C4C929.wem"
+       },
+       {
+        "Id": "1069160229",
+        "Language": "SFX",
+        "ShortName": "Steps_wood-004.wav",
+        "Path": "SFX\\Steps_wood-004_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{39E7578C-2B59-43D9-960B-2072F97D4164}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{E060CF42-4BD4-456E-8B82-9BFCAA142FFA}",
+        "Media": [
+         {
+          "Id": "629470189"
+         },
+         {
+          "Id": "645910332"
+         },
+         {
+          "Id": "722127345"
+         },
+         {
+          "Id": "783709294"
+         },
+         {
+          "Id": "1069160229"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{799E1074-75CD-4D18-A5A6-43A577883153}",
+        "Media": [
+         {
+          "Id": "28191928"
+         },
+         {
+          "Id": "201616585"
+         },
+         {
+          "Id": "415328929"
+         },
+         {
+          "Id": "994066503"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{39E7578C-2B59-43D9-960B-2072F97D4164}",
+        "Media": [
+         {
+          "Id": "108556348"
+         },
+         {
+          "Id": "339765195"
+         },
+         {
+          "Id": "396972097"
+         },
+         {
+          "Id": "582917407"
+         },
+         {
+          "Id": "712083384"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{8C38A8B0-4CE1-49CC-8103-A46067ED1BFF}",
+        "Media": [
+         {
+          "Id": "24151118"
+         },
+         {
+          "Id": "242030817"
+         },
+         {
+          "Id": "308244502"
+         },
+         {
+          "Id": "448032196"
+         },
+         {
+          "Id": "495876682"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{D8A6C1B4-F542-43FB-8892-4CC67EF200D2}",
+        "Media": [
+         {
+          "Id": "93001279"
+         },
+         {
+          "Id": "586447179"
+         },
+         {
+          "Id": "816079863"
+         },
+         {
+          "Id": "879211421"
+         },
+         {
+          "Id": "883286202"
+         }
+        ]
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "2705646932",
+        "Name": "ChurchReverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\ChurchReverb",
+        "GUID": "{77991B50-1AFF-46D6-94DA-B3F12D6EC1E6}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1834394558",
+      "Name": "Surface",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Surface",
+      "GUID": "{ADEB1A7A-93DA-4DE3-9F3D-F000F60D5613}",
+      "Switches": [
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Concrete",
+        "GUID": "{39E7578C-2B59-43D9-960B-2072F97D4164}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Grass",
+        "GUID": "{8C38A8B0-4CE1-49CC-8103-A46067ED1BFF}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Wood",
+        "GUID": "{E060CF42-4BD4-456E-8B82-9BFCAA142FFA}"
+       },
+       {
+        "Id": "3316001432",
+        "Name": "Tiles",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Tiles",
+        "GUID": "{799E1074-75CD-4D18-A5A6-43A577883153}"
+       },
+       {
+        "Id": "2412606308",
+        "Name": "Carpet",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Carpet",
+        "GUID": "{D8A6C1B4-F542-43FB-8892-4CC67EF200D2}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

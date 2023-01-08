@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{792DAEA2-9B70-4237-9104-CCBB2604A8AD}" SchemaVersion="103" RootDocumentID="{CE9B6102-15D4-46DC-9961-DDCAE43D4611}" ParentDocumentID="{CE9B6102-15D4-46DC-9961-DDCAE43D4611}">
+	<GameParameters>
+		<WorkUnit Name="CarEngine" ID="{792DAEA2-9B70-4237-9104-CCBB2604A8AD}" OwnerID="{CE9B6102-15D4-46DC-9961-DDCAE43D4611}" PersistMode="Nested">
+			<ChildrenList>
+				<GameParameter Name="RTPC_Engine_Load" ID="{15DF3B17-1B47-4B39-8BEF-C917966D61C6}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="Min" Type="Real64" Value="-1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_RPM" ID="{D78F3331-35AD-4AC7-A025-6EF1C7EB5E60}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="8000"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{719F39A5-763D-4CDE-88C9-A549676A4E16}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{719F39A5-763D-4CDE-88C9-A549676A4E16}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Music" ID="{CBA50836-1382-4A58-9247-287FA5D6DEF3}">
+					<ChildrenList>
+						<State Name="None" ID="{E6C6BA5C-668B-4F51-B693-98528EE6FEB1}"/>
+						<State Name="Ambient" ID="{BA280C01-777F-4EC4-86FD-B760633C7B7F}"/>
+						<State Name="Tense" ID="{E0DAEF6B-84C2-4B4C-BDB8-9A257F99B327}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

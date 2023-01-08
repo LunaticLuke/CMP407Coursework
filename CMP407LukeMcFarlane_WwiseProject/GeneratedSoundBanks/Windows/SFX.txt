@@ -1,0 +1,25 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3511205013	FootstepEvent			\Default Work Unit\FootstepEvent	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3121495386	MovementTypeSwitch			\Default Work Unit\MovementTypeSwitch	
+	3631453782	SurfaceTypeSwitch			\Default Work Unit\SurfaceTypeSwitch	
+
+Switch	ID	Name	Switch Group			Notes
+	340271938	Walking	MovementTypeSwitch			
+	3863236874	Running	MovementTypeSwitch			
+	841620460	Concrete	SurfaceTypeSwitch			
+	2058049674	Wood	SurfaceTypeSwitch			
+	4248645337	Grass	SurfaceTypeSwitch			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	108556348	Steps_floor-002	D:\Documents\Y4S1\CMP407\Coursework\CourseworkProject\CMP4071902696\CMP407LukeMcFarlane\CMP407LukeMcFarlane_WwiseProject\.cache\Windows\SFX\Steps_floor-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\MovementType\Running\RunningConcrete\Steps_floor-002		7488
+	339765195	Steps_floor-005	D:\Documents\Y4S1\CMP407\Coursework\CourseworkProject\CMP4071902696\CMP407LukeMcFarlane\CMP407LukeMcFarlane_WwiseProject\.cache\Windows\SFX\Steps_floor-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\MovementType\Running\RunningConcrete\Steps_floor-005		18240
+	396972097	Steps_floor-004	D:\Documents\Y4S1\CMP407\Coursework\CourseworkProject\CMP4071902696\CMP407LukeMcFarlane\CMP407LukeMcFarlane_WwiseProject\.cache\Windows\SFX\Steps_floor-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\MovementType\Running\RunningConcrete\Steps_floor-004		15680
+	582917407	Steps_floor-003	D:\Documents\Y4S1\CMP407\Coursework\CourseworkProject\CMP4071902696\CMP407LukeMcFarlane\CMP407LukeMcFarlane_WwiseProject\.cache\Windows\SFX\Steps_floor-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\MovementType\Running\RunningConcrete\Steps_floor-003		13120
+	645910332	Steps_wood-005	D:\Documents\Y4S1\CMP407\Coursework\CourseworkProject\CMP4071902696\CMP407LukeMcFarlane\CMP407LukeMcFarlane_WwiseProject\.cache\Windows\SFX\Steps_wood-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\MovementType\Running\RunningWood\Steps_wood-005		39744
+	712083384	Steps_floor-001	D:\Documents\Y4S1\CMP407\Coursework\CourseworkProject\CMP4071902696\CMP407LukeMcFarlane\CMP407LukeMcFarlane_WwiseProject\.cache\Windows\SFX\Steps_floor-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\MovementType\Running\RunningConcrete\Steps_floor-001		8000
+	722127345	Steps_wood-003	D:\Documents\Y4S1\CMP407\Coursework\CourseworkProject\CMP4071902696\CMP407LukeMcFarlane\CMP407LukeMcFarlane_WwiseProject\.cache\Windows\SFX\Steps_wood-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\MovementType\Running\RunningWood\Steps_wood-003		43328
+	783709294	Steps_wood-002	D:\Documents\Y4S1\CMP407\Coursework\CourseworkProject\CMP4071902696\CMP407LukeMcFarlane\CMP407LukeMcFarlane_WwiseProject\.cache\Windows\SFX\Steps_wood-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\MovementType\Running\RunningWood\Steps_wood-002		35136
+	1069160229	Steps_wood-004	D:\Documents\Y4S1\CMP407\Coursework\CourseworkProject\CMP4071902696\CMP407LukeMcFarlane\CMP407LukeMcFarlane_WwiseProject\.cache\Windows\SFX\Steps_wood-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\MovementType\Running\RunningWood\Steps_wood-004		50496
+

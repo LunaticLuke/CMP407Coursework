@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{69E49B9B-7810-4B76-B2DF-F7458EF6B605}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{69E49B9B-7810-4B76-B2DF-F7458EF6B605}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Music" ID="{86A98A5E-375E-4A96-8EF1-A858EB10BC3C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="ScanItem" ID="{461FDEB0-4FDB-4078-A8D3-12B0CB67DC40}" WorkUnitID="{7C9058A6-71D1-4557-AC2A-F6D09CC42192}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ToAmbient" ID="{24ECC535-B4A3-4143-9841-EEDA18F7721D}" WorkUnitID="{7C9058A6-71D1-4557-AC2A-F6D09CC42192}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ToTense" ID="{DF6BBE1A-8FE9-4264-8551-94341C05FF37}" WorkUnitID="{7C9058A6-71D1-4557-AC2A-F6D09CC42192}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayAmbient" ID="{9A00E4D5-2B75-431E-AD47-C8ECF699F1EC}" WorkUnitID="{7C9058A6-71D1-4557-AC2A-F6D09CC42192}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayBirds" ID="{95841A59-A904-435E-A487-6336A146637D}" WorkUnitID="{7C9058A6-71D1-4557-AC2A-F6D09CC42192}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="EnterShop" ID="{6C4366A3-30F5-48D8-9D2B-BE5A4EE1FB61}" WorkUnitID="{7C9058A6-71D1-4557-AC2A-F6D09CC42192}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StartCar" ID="{4EC13334-4B47-4A5B-8849-809537BA5ABD}" WorkUnitID="{7C9058A6-71D1-4557-AC2A-F6D09CC42192}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayMusic" ID="{119F35F2-3329-4B87-B7DB-D43BCA0356FA}" WorkUnitID="{7C9058A6-71D1-4557-AC2A-F6D09CC42192}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Footsteps" ID="{9BEA0B25-DBC0-4E91-9CFD-CBA23CB15A31}" WorkUnitID="{7C9058A6-71D1-4557-AC2A-F6D09CC42192}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play2DAmbience" ID="{97E267D3-599B-4F77-BF4E-A93B79B0474E}" WorkUnitID="{7C9058A6-71D1-4557-AC2A-F6D09CC42192}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

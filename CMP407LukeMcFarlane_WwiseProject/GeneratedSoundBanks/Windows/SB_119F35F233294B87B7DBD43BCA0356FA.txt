@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	417627684	PlayMusic			\Default Work Unit\PlayMusic	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Default Work Unit\Music	
+
+State	ID	Name	State Group			Notes
+	77978275	Ambient	Music			
+	391998042	Tense	Music			
+	748895195	None	Music			
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	1085043954	ToAmbient			\Default Work Unit\ToAmbient	
+	3700207115	ToTense			\Default Work Unit\ToTense	
+

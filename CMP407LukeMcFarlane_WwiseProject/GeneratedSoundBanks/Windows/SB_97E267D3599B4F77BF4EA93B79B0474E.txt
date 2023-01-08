@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	574697901	Play2DAmbience			\Default Work Unit\Play2DAmbience	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+

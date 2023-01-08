@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\Documents\Y4S1\CMP407\Coursework\CourseworkProject\CMP4071902696\CMP407LukeMcFarlane\CMP407LukeMcFarlane_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Documents\Y4S1\CMP407\Coursework\CourseworkProject\CMP4071902696\CMP407LukeMcFarlane\CMP407LukeMcFarlane_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Documents\Y4S1\CMP407\Coursework\CourseworkProject\CMP4071902696\CMP407LukeMcFarlane\CMP407LukeMcFarlane_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Documents\Y4S1\CMP407\Coursework\CourseworkProject\CMP4071902696\CMP407LukeMcFarlane\CMP407LukeMcFarlane_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="3017090543">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" GUID="{86A98A5E-375E-4A96-8EF1-A858EB10BC3C}" Language="SFX" Hash="2735748389">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="417627684" Name="PlayMusic" ObjectPath="\Events\Default Work Unit\PlayMusic" GUID="{119F35F2-3329-4B87-B7DB-D43BCA0356FA}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="93378031" Language="SFX">
+							<ShortName>A Victorian Christmas.wav</ShortName>
+							<Path>SFX\A Victorian Christmas_D79FB2B7.wem</Path>
+						</File>
+						<File Id="779806676" Language="SFX">
+							<ShortName>Doctor Who Unreleased Music - The Waters Of Mars - Fighting The Flood.wav</ShortName>
+							<Path>SFX\Doctor Who Unreleased Music - The Waters Of Mars - Fighting The Flood_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{BA280C01-777F-4EC4-86FD-B760633C7B7F}">
+							<Media>
+								<File Id="93378031"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E0DAEF6B-84C2-4B4C-BDB8-9A257F99B327}">
+							<Media>
+								<File Id="779806676"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="3991942870" Name="Music" ObjectPath="\States\Default Work Unit\Music" GUID="{CBA50836-1382-4A58-9247-287FA5D6DEF3}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\None" GUID="{E6C6BA5C-668B-4F51-B693-98528EE6FEB1}"/>
+						<State Id="77978275" Name="Ambient" ObjectPath="\States\Default Work Unit\Music\Ambient" GUID="{BA280C01-777F-4EC4-86FD-B760633C7B7F}"/>
+						<State Id="391998042" Name="Tense" ObjectPath="\States\Default Work Unit\Music\Tense" GUID="{E0DAEF6B-84C2-4B4C-BDB8-9A257F99B327}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

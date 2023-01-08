@@ -1,0 +1,1073 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3765352185",
+    "GUID": "{E06EB6F9-B6F9-16F9-F9F9-F9F9F9F9F9F9}",
+    "Language": "SFX",
+    "Hash": "2213990141",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_F55381BD411DCCC80713AA8469ADD0B6",
+    "ShortName": "SB_F55381BD411DCCC80713AA8469ADD0B6",
+    "Path": "SB_F55381BD411DCCC80713AA8469ADD0B6.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1104863757",
+      "Name": "EnterShop",
+      "ObjectPath": "\\Events\\Default Work Unit\\EnterShop",
+      "GUID": "{6C4366A3-30F5-48D8-9D2B-BE5A4EE1FB61}",
+      "MaxAttenuation": "1000.",
+      "DurationType": "OneShot",
+      "DurationMin": "1.821247",
+      "DurationMax": "1.821247",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "67665187",
+        "Language": "SFX",
+        "ShortName": "Store_Door_Chime-Mike_Koenig-570742973.wav",
+        "Path": "SFX\\Store_Door_Chime-Mike_Koenig-570742973_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps",
+      "GUID": "{9BEA0B25-DBC0-4E91-9CFD-CBA23CB15A31}",
+      "MaxAttenuation": "1500.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.036427",
+      "DurationMax": "0.350431",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "24151118",
+        "Language": "SFX",
+        "ShortName": "Steps_dirt-001.wav",
+        "Path": "SFX\\Steps_dirt-001_10C4C929.wem"
+       },
+       {
+        "Id": "28191928",
+        "Language": "SFX",
+        "ShortName": "Steps_tiles-001.wav",
+        "Path": "SFX\\Steps_tiles-001_10C4C929.wem"
+       },
+       {
+        "Id": "93001279",
+        "Language": "SFX",
+        "ShortName": "Steps_carpet-001.wav",
+        "Path": "SFX\\Steps_carpet-001_10C4C929.wem"
+       },
+       {
+        "Id": "108556348",
+        "Language": "SFX",
+        "ShortName": "Steps_floor-002.wav",
+        "Path": "SFX\\Steps_floor-002_10C4C929.wem"
+       },
+       {
+        "Id": "201616585",
+        "Language": "SFX",
+        "ShortName": "Steps_tiles-005.wav",
+        "Path": "SFX\\Steps_tiles-005_10C4C929.wem"
+       },
+       {
+        "Id": "242030817",
+        "Language": "SFX",
+        "ShortName": "Steps_dirt-005.wav",
+        "Path": "SFX\\Steps_dirt-005_10C4C929.wem"
+       },
+       {
+        "Id": "308244502",
+        "Language": "SFX",
+        "ShortName": "Steps_dirt-003.wav",
+        "Path": "SFX\\Steps_dirt-003_10C4C929.wem"
+       },
+       {
+        "Id": "339765195",
+        "Language": "SFX",
+        "ShortName": "Steps_floor-005.wav",
+        "Path": "SFX\\Steps_floor-005_10C4C929.wem"
+       },
+       {
+        "Id": "396972097",
+        "Language": "SFX",
+        "ShortName": "Steps_floor-004.wav",
+        "Path": "SFX\\Steps_floor-004_10C4C929.wem"
+       },
+       {
+        "Id": "415328929",
+        "Language": "SFX",
+        "ShortName": "Steps_tiles-004.wav",
+        "Path": "SFX\\Steps_tiles-004_10C4C929.wem"
+       },
+       {
+        "Id": "448032196",
+        "Language": "SFX",
+        "ShortName": "Steps_dirt-004.wav",
+        "Path": "SFX\\Steps_dirt-004_10C4C929.wem"
+       },
+       {
+        "Id": "495876682",
+        "Language": "SFX",
+        "ShortName": "Steps_dirt-002.wav",
+        "Path": "SFX\\Steps_dirt-002_10C4C929.wem"
+       },
+       {
+        "Id": "582917407",
+        "Language": "SFX",
+        "ShortName": "Steps_floor-003.wav",
+        "Path": "SFX\\Steps_floor-003_10C4C929.wem"
+       },
+       {
+        "Id": "586447179",
+        "Language": "SFX",
+        "ShortName": "Steps_carpet-005.wav",
+        "Path": "SFX\\Steps_carpet-005_10C4C929.wem"
+       },
+       {
+        "Id": "629470189",
+        "Language": "SFX",
+        "ShortName": "Steps_wood-001.wav",
+        "Path": "SFX\\Steps_wood-001_10C4C929.wem"
+       },
+       {
+        "Id": "645910332",
+        "Language": "SFX",
+        "ShortName": "Steps_wood-005.wav",
+        "Path": "SFX\\Steps_wood-005_10C4C929.wem"
+       },
+       {
+        "Id": "712083384",
+        "Language": "SFX",
+        "ShortName": "Steps_floor-001.wav",
+        "Path": "SFX\\Steps_floor-001_10C4C929.wem"
+       },
+       {
+        "Id": "722127345",
+        "Language": "SFX",
+        "ShortName": "Steps_wood-003.wav",
+        "Path": "SFX\\Steps_wood-003_10C4C929.wem"
+       },
+       {
+        "Id": "783709294",
+        "Language": "SFX",
+        "ShortName": "Steps_wood-002.wav",
+        "Path": "SFX\\Steps_wood-002_10C4C929.wem"
+       },
+       {
+        "Id": "816079863",
+        "Language": "SFX",
+        "ShortName": "Steps_carpet-004.wav",
+        "Path": "SFX\\Steps_carpet-004_10C4C929.wem"
+       },
+       {
+        "Id": "879211421",
+        "Language": "SFX",
+        "ShortName": "Steps_carpet-002.wav",
+        "Path": "SFX\\Steps_carpet-002_10C4C929.wem"
+       },
+       {
+        "Id": "883286202",
+        "Language": "SFX",
+        "ShortName": "Steps_carpet-003.wav",
+        "Path": "SFX\\Steps_carpet-003_10C4C929.wem"
+       },
+       {
+        "Id": "994066503",
+        "Language": "SFX",
+        "ShortName": "Steps_tiles-002.wav",
+        "Path": "SFX\\Steps_tiles-002_10C4C929.wem"
+       },
+       {
+        "Id": "1069160229",
+        "Language": "SFX",
+        "ShortName": "Steps_wood-004.wav",
+        "Path": "SFX\\Steps_wood-004_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{39E7578C-2B59-43D9-960B-2072F97D4164}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{E060CF42-4BD4-456E-8B82-9BFCAA142FFA}",
+        "Media": [
+         {
+          "Id": "629470189"
+         },
+         {
+          "Id": "645910332"
+         },
+         {
+          "Id": "722127345"
+         },
+         {
+          "Id": "783709294"
+         },
+         {
+          "Id": "1069160229"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{799E1074-75CD-4D18-A5A6-43A577883153}",
+        "Media": [
+         {
+          "Id": "28191928"
+         },
+         {
+          "Id": "201616585"
+         },
+         {
+          "Id": "415328929"
+         },
+         {
+          "Id": "994066503"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{39E7578C-2B59-43D9-960B-2072F97D4164}",
+        "Media": [
+         {
+          "Id": "108556348"
+         },
+         {
+          "Id": "339765195"
+         },
+         {
+          "Id": "396972097"
+         },
+         {
+          "Id": "582917407"
+         },
+         {
+          "Id": "712083384"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{8C38A8B0-4CE1-49CC-8103-A46067ED1BFF}",
+        "Media": [
+         {
+          "Id": "24151118"
+         },
+         {
+          "Id": "242030817"
+         },
+         {
+          "Id": "308244502"
+         },
+         {
+          "Id": "448032196"
+         },
+         {
+          "Id": "495876682"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{D8A6C1B4-F542-43FB-8892-4CC67EF200D2}",
+        "Media": [
+         {
+          "Id": "93001279"
+         },
+         {
+          "Id": "586447179"
+         },
+         {
+          "Id": "816079863"
+         },
+         {
+          "Id": "879211421"
+         },
+         {
+          "Id": "883286202"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "574697901",
+      "Name": "Play2DAmbience",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play2DAmbience",
+      "GUID": "{97E267D3-599B-4F77-BF4E-A93B79B0474E}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "454763225",
+        "Language": "SFX",
+        "ShortName": "DogBark2.wav",
+        "Path": "SFX\\DogBark2_10C4C929.wem"
+       },
+       {
+        "Id": "500971411",
+        "Language": "SFX",
+        "ShortName": "Siren.wav",
+        "Path": "SFX\\Siren_10C4C929.wem"
+       },
+       {
+        "Id": "586413945",
+        "Language": "SFX",
+        "ShortName": "Cat meow1.wav",
+        "Path": "SFX\\Cat meow1_576F1116.wem"
+       },
+       {
+        "Id": "652527387",
+        "Language": "SFX",
+        "ShortName": "City Skyline - No Copyright Sound Effects - Audio Library.wav",
+        "Path": "SFX\\City Skyline - No Copyright Sound Effects - Audio Library_A6F36307.wem"
+       },
+       {
+        "Id": "721390685",
+        "Language": "SFX",
+        "ShortName": "Cat meow 4.wav",
+        "Path": "SFX\\Cat meow 4_10C4C929.wem"
+       },
+       {
+        "Id": "742357500",
+        "Language": "SFX",
+        "ShortName": "Cat meow 2.wav",
+        "Path": "SFX\\Cat meow 2_10C4C929.wem"
+       },
+       {
+        "Id": "760541756",
+        "Language": "SFX",
+        "ShortName": "AmbulanceSiren.wav",
+        "Path": "SFX\\AmbulanceSiren_10C4C929.wem"
+       },
+       {
+        "Id": "894160611",
+        "Language": "SFX",
+        "ShortName": "DogBark1.wav",
+        "Path": "SFX\\DogBark1_10C4C929.wem"
+       },
+       {
+        "Id": "992020977",
+        "Language": "SFX",
+        "ShortName": "Cat meow 3.wav",
+        "Path": "SFX\\Cat meow 3_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1181117825",
+      "Name": "PlayAmbient",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayAmbient",
+      "GUID": "{9A00E4D5-2B75-431E-AD47-C8ECF699F1EC}",
+      "MaxAttenuation": "8000.",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "520666452",
+        "Language": "SFX",
+        "ShortName": "Somewhere in My Memory (Home Alone) Organ Cover.wav",
+        "Path": "SFX\\Somewhere in My Memory (Home Alone) Organ Cover_D79FB2B7.wem"
+       },
+       {
+        "Id": "545170574",
+        "Language": "SFX",
+        "ShortName": "KeyboardTwo.wav",
+        "Path": "SFX\\KeyboardTwo_10C4C929.wem"
+       },
+       {
+        "Id": "555718954",
+        "Language": "SFX",
+        "ShortName": "KeyboardOne.wav",
+        "Path": "SFX\\KeyboardOne_10C4C929.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{43FD0EDB-E048-4BE1-9194-CFD97720CBE0}",
+        "Media": [
+         {
+          "Id": "520666452"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{154991FE-A83D-45F4-91A1-B44EDF401B81}",
+        "Media": [
+         {
+          "Id": "545170574"
+         },
+         {
+          "Id": "555718954"
+         }
+        ]
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "2705646932",
+        "Name": "ChurchReverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\ChurchReverb",
+        "GUID": "{77991B50-1AFF-46D6-94DA-B3F12D6EC1E6}"
+       }
+      ]
+     },
+     {
+      "Id": "634235129",
+      "Name": "PlayBirds",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayBirds",
+      "GUID": "{95841A59-A904-435E-A487-6336A146637D}",
+      "MaxAttenuation": "8000.",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "116696268",
+        "Language": "SFX",
+        "ShortName": "Bird7.wav",
+        "Path": "SFX\\Bird7_10C4C929.wem"
+       },
+       {
+        "Id": "147000594",
+        "Language": "SFX",
+        "ShortName": "Bird8.wav",
+        "Path": "SFX\\Bird8_10C4C929.wem"
+       },
+       {
+        "Id": "168316778",
+        "Language": "SFX",
+        "ShortName": "Bird3.wav",
+        "Path": "SFX\\Bird3_10C4C929.wem"
+       },
+       {
+        "Id": "197157819",
+        "Language": "SFX",
+        "ShortName": "Bird4.wav",
+        "Path": "SFX\\Bird4_10C4C929.wem"
+       },
+       {
+        "Id": "246984949",
+        "Language": "SFX",
+        "ShortName": "Bird9.wav",
+        "Path": "SFX\\Bird9_10C4C929.wem"
+       },
+       {
+        "Id": "329181022",
+        "Language": "SFX",
+        "ShortName": "RobinChirp.wav",
+        "Path": "SFX\\RobinChirp_10C4C929.wem"
+       },
+       {
+        "Id": "563609451",
+        "Language": "SFX",
+        "ShortName": "Birds2.wav",
+        "Path": "SFX\\Birds2_10C4C929.wem"
+       },
+       {
+        "Id": "783132890",
+        "Language": "SFX",
+        "ShortName": "Bird5.wav",
+        "Path": "SFX\\Bird5_10C4C929.wem"
+       },
+       {
+        "Id": "806805482",
+        "Language": "SFX",
+        "ShortName": "Bird6.wav",
+        "Path": "SFX\\Bird6_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "417627684",
+      "Name": "PlayMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayMusic",
+      "GUID": "{119F35F2-3329-4B87-B7DB-D43BCA0356FA}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "74582207",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area II-84 BPM-Loop 6.wav",
+        "Path": "SFX\\BG_Music_Area II-84 BPM-Loop 6_D79FB2B7.wem"
+       },
+       {
+        "Id": "205489171",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area I-80 BPM-Loop 8.wav",
+        "Path": "SFX\\BG_Music_Area I-80 BPM-Loop 8_D79FB2B7.wem"
+       },
+       {
+        "Id": "411127488",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area I-80 BPM-Loop 6.wav",
+        "Path": "SFX\\BG_Music_Area I-80 BPM-Loop 6_D79FB2B7.wem"
+       },
+       {
+        "Id": "443522379",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area II-84 BPM-Loop 5.wav",
+        "Path": "SFX\\BG_Music_Area II-84 BPM-Loop 5_D79FB2B7.wem"
+       },
+       {
+        "Id": "453446043",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area I-80 BPM-Loop 2.wav",
+        "Path": "SFX\\BG_Music_Area I-80 BPM-Loop 2_D79FB2B7.wem"
+       },
+       {
+        "Id": "499891710",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area I-80 BPM-Loop 1.wav",
+        "Path": "SFX\\BG_Music_Area I-80 BPM-Loop 1_D79FB2B7.wem"
+       },
+       {
+        "Id": "602358094",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area II-84 BPM-Loop 3.wav",
+        "Path": "SFX\\BG_Music_Area II-84 BPM-Loop 3_D79FB2B7.wem"
+       },
+       {
+        "Id": "644222669",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area II-84 BPM-Loop 8.wav",
+        "Path": "SFX\\BG_Music_Area II-84 BPM-Loop 8_D79FB2B7.wem"
+       },
+       {
+        "Id": "706259384",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area I-80 BPM-Loop 5.wav",
+        "Path": "SFX\\BG_Music_Area I-80 BPM-Loop 5_D79FB2B7.wem"
+       },
+       {
+        "Id": "769434234",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area II-84 BPM-Loop 1.wav",
+        "Path": "SFX\\BG_Music_Area II-84 BPM-Loop 1_D79FB2B7.wem"
+       },
+       {
+        "Id": "779794301",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area II-84 BPM-Loop 9.wav",
+        "Path": "SFX\\BG_Music_Area II-84 BPM-Loop 9_D79FB2B7.wem"
+       },
+       {
+        "Id": "782295959",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area II-84 BPM-Loop 7.wav",
+        "Path": "SFX\\BG_Music_Area II-84 BPM-Loop 7_D79FB2B7.wem"
+       },
+       {
+        "Id": "849624745",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area I-80 BPM-Loop 3.wav",
+        "Path": "SFX\\BG_Music_Area I-80 BPM-Loop 3_D79FB2B7.wem"
+       },
+       {
+        "Id": "857975341",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area I-80 BPM-Loop 4.wav",
+        "Path": "SFX\\BG_Music_Area I-80 BPM-Loop 4_D79FB2B7.wem"
+       },
+       {
+        "Id": "859354829",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area II-84 BPM-Loop 2.wav",
+        "Path": "SFX\\BG_Music_Area II-84 BPM-Loop 2_D79FB2B7.wem"
+       },
+       {
+        "Id": "980682965",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area I-80 BPM-Loop 7.wav",
+        "Path": "SFX\\BG_Music_Area I-80 BPM-Loop 7_D79FB2B7.wem"
+       },
+       {
+        "Id": "1022032292",
+        "Language": "SFX",
+        "ShortName": "BG_Music_Area II-84 BPM-Loop 4.wav",
+        "Path": "SFX\\BG_Music_Area II-84 BPM-Loop 4_D79FB2B7.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{BA280C01-777F-4EC4-86FD-B760633C7B7F}",
+        "Media": [
+         {
+          "Id": "205489171"
+         },
+         {
+          "Id": "411127488"
+         },
+         {
+          "Id": "453446043"
+         },
+         {
+          "Id": "499891710"
+         },
+         {
+          "Id": "706259384"
+         },
+         {
+          "Id": "849624745"
+         },
+         {
+          "Id": "857975341"
+         },
+         {
+          "Id": "980682965"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{E0DAEF6B-84C2-4B4C-BDB8-9A257F99B327}",
+        "Media": [
+         {
+          "Id": "74582207"
+         },
+         {
+          "Id": "443522379"
+         },
+         {
+          "Id": "602358094"
+         },
+         {
+          "Id": "644222669"
+         },
+         {
+          "Id": "769434234"
+         },
+         {
+          "Id": "779794301"
+         },
+         {
+          "Id": "782295959"
+         },
+         {
+          "Id": "859354829"
+         },
+         {
+          "Id": "1022032292"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "2937246247",
+      "Name": "ScanItem",
+      "ObjectPath": "\\Events\\Default Work Unit\\ScanItem",
+      "GUID": "{461FDEB0-4FDB-4078-A8D3-12B0CB67DC40}",
+      "MaxAttenuation": "1000.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.675306",
+      "DurationMax": "0.675306",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "134086362",
+        "Language": "SFX",
+        "ShortName": "CheckOut.wav",
+        "Path": "SFX\\CheckOut_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4005670443",
+      "Name": "StartCar",
+      "ObjectPath": "\\Events\\Default Work Unit\\StartCar",
+      "GUID": "{4EC13334-4B47-4A5B-8849-809537BA5ABD}",
+      "MaxAttenuation": "12000.",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "134790551",
+        "Language": "SFX",
+        "ShortName": "Porsche_Outside_On-Load_6000_01.wav",
+        "Path": "SFX\\Porsche_Outside_On-Load_6000_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "196883218",
+        "Language": "SFX",
+        "ShortName": "Porsche_Outside_Off-Load_6000_01.wav",
+        "Path": "SFX\\Porsche_Outside_Off-Load_6000_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "265247277",
+        "Language": "SFX",
+        "ShortName": "Porsche_Outside_Off-Load_5000_01.wav",
+        "Path": "SFX\\Porsche_Outside_Off-Load_5000_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "411153619",
+        "Language": "SFX",
+        "ShortName": "Porsche_Outside_Off-Load_2000_01.wav",
+        "Path": "SFX\\Porsche_Outside_Off-Load_2000_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "431334071",
+        "Language": "SFX",
+        "ShortName": "Porsche_Outside_On-Load_4000_01.wav",
+        "Path": "SFX\\Porsche_Outside_On-Load_4000_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "436124512",
+        "Language": "SFX",
+        "ShortName": "Porsche_Outside_Off-Load_4000_01.wav",
+        "Path": "SFX\\Porsche_Outside_Off-Load_4000_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "491838561",
+        "Language": "SFX",
+        "ShortName": "Porsche_Outside_Idle_1000_01.wav",
+        "Path": "SFX\\Porsche_Outside_Idle_1000_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "619408883",
+        "Language": "SFX",
+        "ShortName": "CarHorn.wav",
+        "Path": "SFX\\CarHorn_10C4C929.wem"
+       },
+       {
+        "Id": "660589632",
+        "Language": "SFX",
+        "ShortName": "Porsche_Outside_Off-Load_3000_01.wav",
+        "Path": "SFX\\Porsche_Outside_Off-Load_3000_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "704539158",
+        "Language": "SFX",
+        "ShortName": "Porsche_Outside_On-Load_2000_01.wav",
+        "Path": "SFX\\Porsche_Outside_On-Load_2000_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "822396792",
+        "Language": "SFX",
+        "ShortName": "Siren.wav",
+        "Path": "SFX\\Siren_D79FB2B7.wem"
+       },
+       {
+        "Id": "875877574",
+        "Language": "SFX",
+        "ShortName": "Porsche_Outside_On-Load_5000_01.wav",
+        "Path": "SFX\\Porsche_Outside_On-Load_5000_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "1040427121",
+        "Language": "SFX",
+        "ShortName": "CarBrake.wav",
+        "Path": "SFX\\CarBrake_10C4C929.wem"
+       },
+       {
+        "Id": "1040764020",
+        "Language": "SFX",
+        "ShortName": "Porsche_Outside_On-Load_3000_01.wav",
+        "Path": "SFX\\Porsche_Outside_On-Load_3000_01_D79FB2B7.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{B1FE1E2E-E478-41D7-BACE-52D16ECA915E}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{B1FE1E2E-E478-41D7-BACE-52D16ECA915E}",
+        "DefaultSwitchValue": "{2BDCA72C-2AC5-4D5A-BD65-DB573906FE17}",
+        "Media": [
+         {
+          "Id": "134790551"
+         },
+         {
+          "Id": "196883218"
+         },
+         {
+          "Id": "265247277"
+         },
+         {
+          "Id": "411153619"
+         },
+         {
+          "Id": "431334071"
+         },
+         {
+          "Id": "436124512"
+         },
+         {
+          "Id": "491838561"
+         },
+         {
+          "Id": "660589632"
+         },
+         {
+          "Id": "704539158"
+         },
+         {
+          "Id": "875877574"
+         },
+         {
+          "Id": "1040764020"
+         }
+        ],
+        "Children": [
+         {
+          "SwitchValue": "{CD0DEB53-EF48-43F1-8F00-4CAC9FC940E8}",
+          "Media": [
+           {
+            "Id": "822396792"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{DD99B44B-A5A5-4347-B4DC-D99ADC3A8B41}",
+        "DefaultSwitchValue": "{2BDCA72C-2AC5-4D5A-BD65-DB573906FE17}",
+        "Media": [
+         {
+          "Id": "134790551"
+         },
+         {
+          "Id": "196883218"
+         },
+         {
+          "Id": "265247277"
+         },
+         {
+          "Id": "411153619"
+         },
+         {
+          "Id": "431334071"
+         },
+         {
+          "Id": "436124512"
+         },
+         {
+          "Id": "491838561"
+         },
+         {
+          "Id": "619408883"
+         },
+         {
+          "Id": "660589632"
+         },
+         {
+          "Id": "704539158"
+         },
+         {
+          "Id": "875877574"
+         },
+         {
+          "Id": "1040427121"
+         },
+         {
+          "Id": "1040764020"
+         }
+        ],
+        "Children": [
+         {
+          "SwitchValue": "{CD0DEB53-EF48-43F1-8F00-4CAC9FC940E8}",
+          "Media": [
+           {
+            "Id": "822396792"
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "2705646932",
+        "Name": "ChurchReverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\ChurchReverb",
+        "GUID": "{77991B50-1AFF-46D6-94DA-B3F12D6EC1E6}"
+       }
+      ]
+     }
+    ],
+    "IncludedAuxBusses": [
+     {
+      "Id": "1160295760",
+      "Name": "EmptySmallRoomReverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\EmptySmallRoomReverb",
+      "GUID": "{4AA3F420-F203-4C7F-95C3-54BBF4F3ADB8}"
+     },
+     {
+      "Id": "2705646932",
+      "Name": "ChurchReverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\ChurchReverb",
+      "GUID": "{77991B50-1AFF-46D6-94DA-B3F12D6EC1E6}"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "932301089",
+      "Name": "RTPC_SFX_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_SFX_Volume",
+      "GUID": "{0206512E-1825-4F46-BC89-7858DFDBCCF4}"
+     },
+     {
+      "Id": "965656869",
+      "Name": "RTPC_Doppler",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_Doppler",
+      "GUID": "{0975B7CF-F0E0-40AC-9F79-0C3CFD244205}"
+     },
+     {
+      "Id": "1596647065",
+      "Name": "RTPC_Music_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_Music_Volume",
+      "GUID": "{C6713EB4-4407-4DF2-B8E7-3FF1FAC85FE2}"
+     },
+     {
+      "Id": "3342795920",
+      "Name": "RTPC_Engine_Load",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\CarEngine\\RTPC_Engine_Load",
+      "GUID": "{15DF3B17-1B47-4B39-8BEF-C917966D61C6}"
+     },
+     {
+      "Id": "3774151474",
+      "Name": "RTPC_RPM",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\CarEngine\\RTPC_RPM",
+      "GUID": "{D78F3331-35AD-4AC7-A025-6EF1C7EB5E60}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\States\\Default Work Unit\\Music",
+      "GUID": "{CBA50836-1382-4A58-9247-287FA5D6DEF3}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\None",
+        "GUID": "{E6C6BA5C-668B-4F51-B693-98528EE6FEB1}"
+       },
+       {
+        "Id": "77978275",
+        "Name": "Ambient",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Ambient",
+        "GUID": "{BA280C01-777F-4EC4-86FD-B760633C7B7F}"
+       },
+       {
+        "Id": "391998042",
+        "Name": "Tense",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Tense",
+        "GUID": "{E0DAEF6B-84C2-4B4C-BDB8-9A257F99B327}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "77978275",
+      "Name": "Ambient",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Ambient",
+      "GUID": "{0A0D5431-2E77-4BFB-BEFE-001C211DB598}",
+      "Switches": [
+       {
+        "Id": "1403540682",
+        "Name": "Keyboard",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ambient\\Keyboard",
+        "GUID": "{154991FE-A83D-45F4-91A1-B44EDF401B81}"
+       },
+       {
+        "Id": "3632852187",
+        "Name": "ChurchOrgan",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ambient\\ChurchOrgan",
+        "GUID": "{43FD0EDB-E048-4BE1-9194-CFD97720CBE0}"
+       },
+       {
+        "Id": "638077002",
+        "Name": "StoreEnter",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ambient\\StoreEnter",
+        "GUID": "{9A57D5AE-4F6E-4F08-8855-25650970025F}"
+       },
+       {
+        "Id": "3361410238",
+        "Name": "CheckoutScan",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ambient\\CheckoutScan",
+        "GUID": "{7891BBF5-93C2-49FB-8DA5-B123CEE7D3E8}"
+       }
+      ]
+     },
+     {
+      "Id": "1834394558",
+      "Name": "Surface",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Surface",
+      "GUID": "{ADEB1A7A-93DA-4DE3-9F3D-F000F60D5613}",
+      "Switches": [
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Concrete",
+        "GUID": "{39E7578C-2B59-43D9-960B-2072F97D4164}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Grass",
+        "GUID": "{8C38A8B0-4CE1-49CC-8103-A46067ED1BFF}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Wood",
+        "GUID": "{E060CF42-4BD4-456E-8B82-9BFCAA142FFA}"
+       },
+       {
+        "Id": "3316001432",
+        "Name": "Tiles",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Tiles",
+        "GUID": "{799E1074-75CD-4D18-A5A6-43A577883153}"
+       },
+       {
+        "Id": "2412606308",
+        "Name": "Carpet",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Carpet",
+        "GUID": "{D8A6C1B4-F542-43FB-8892-4CC67EF200D2}"
+       }
+      ]
+     },
+     {
+      "Id": "2975532270",
+      "Name": "DrivingBraking",
+      "ObjectPath": "\\Switches\\Default Work Unit\\DrivingBraking",
+      "GUID": "{E563A160-7478-4A3A-913A-C47D6AC21353}",
+      "Switches": [
+       {
+        "Id": "3317037866",
+        "Name": "Driving",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DrivingBraking\\Driving",
+        "GUID": "{B1FE1E2E-E478-41D7-BACE-52D16ECA915E}"
+       },
+       {
+        "Id": "3522971943",
+        "Name": "Braking",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DrivingBraking\\Braking",
+        "GUID": "{DD99B44B-A5A5-4347-B4DC-D99ADC3A8B41}"
+       }
+      ]
+     },
+     {
+      "Id": "3610345099",
+      "Name": "PoliceCar",
+      "ObjectPath": "\\Switches\\Default Work Unit\\PoliceCar",
+      "GUID": "{00FF690F-A731-485E-B032-FC8849F9E050}",
+      "Switches": [
+       {
+        "Id": "3610345099",
+        "Name": "PoliceCar",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PoliceCar\\PoliceCar",
+        "GUID": "{CD0DEB53-EF48-43F1-8F00-4CAC9FC940E8}"
+       },
+       {
+        "Id": "1382363906",
+        "Name": "NormalCar",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PoliceCar\\NormalCar",
+        "GUID": "{2BDCA72C-2AC5-4D5A-BD65-DB573906FE17}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

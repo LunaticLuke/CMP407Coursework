@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	634235129	PlayBirds			\Default Work Unit\PlayBirds	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	932301089	RTPC_SFX_Volume			\Default Work Unit\RTPC_SFX_Volume	
+

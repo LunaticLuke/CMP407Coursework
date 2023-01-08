@@ -1,0 +1,62 @@
+Event	ID	Name			Wwise Object Path	Notes
+	417627684	PlayMusic			\Default Work Unit\PlayMusic	
+	574697901	Play2DAmbience			\Default Work Unit\Play2DAmbience	
+	634235129	PlayBirds			\Default Work Unit\PlayBirds	
+	1104863757	EnterShop			\Default Work Unit\EnterShop	
+	1181117825	PlayAmbient			\Default Work Unit\PlayAmbient	
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+	2937246247	ScanItem			\Default Work Unit\ScanItem	
+	4005670443	StartCar			\Default Work Unit\StartCar	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	77978275	Ambient			\Default Work Unit\Ambient	
+	1834394558	Surface			\Default Work Unit\Surface	
+	2975532270	DrivingBraking			\Default Work Unit\DrivingBraking	
+	3610345099	PoliceCar			\Default Work Unit\PoliceCar	
+
+Switch	ID	Name	Switch Group			Notes
+	638077002	StoreEnter	Ambient			
+	1403540682	Keyboard	Ambient			
+	3361410238	CheckoutScan	Ambient			
+	3632852187	ChurchOrgan	Ambient			
+	841620460	Concrete	Surface			
+	2058049674	Wood	Surface			
+	2412606308	Carpet	Surface			
+	3316001432	Tiles	Surface			
+	4248645337	Grass	Surface			
+	3317037866	Driving	DrivingBraking			
+	3522971943	Braking	DrivingBraking			
+	1382363906	NormalCar	PoliceCar			
+	3610345099	PoliceCar	PoliceCar			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Default Work Unit\Music	
+
+State	ID	Name	State Group			Notes
+	77978275	Ambient	Music			
+	391998042	Tense	Music			
+	748895195	None	Music			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	932301089	RTPC_SFX_Volume			\Default Work Unit\RTPC_SFX_Volume	
+	965656869	RTPC_Doppler			\Default Work Unit\RTPC_Doppler	
+	1596647065	RTPC_Music_Volume			\Default Work Unit\RTPC_Music_Volume	
+	3342795920	RTPC_Engine_Load			\Default Work Unit\CarEngine\RTPC_Engine_Load	
+	3774151474	RTPC_RPM			\Default Work Unit\CarEngine\RTPC_RPM	
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	713614383	Modulator LFO (Custom)				
+	828206103	Modulator LFO (Custom)				
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1160295760	EmptySmallRoomReverb			\Default Work Unit\Master Audio Bus\EmptySmallRoomReverb	
+	2705646932	ChurchReverb			\Default Work Unit\Master Audio Bus\ChurchReverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	1159390747	Room_Medium_Tiled	Wwise RoomVerb			
+	2849147824	Medium	Wwise RoomVerb			
+

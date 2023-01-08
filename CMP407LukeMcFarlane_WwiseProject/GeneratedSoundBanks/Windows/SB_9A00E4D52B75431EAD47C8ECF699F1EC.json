@@ -1,0 +1,282 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "707954212",
+    "GUID": "{2A328624-8624-1624-2424-242424242424}",
+    "Language": "SFX",
+    "Hash": "2687806470",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_9A00E4D52B75431EAD47C8ECF699F1EC",
+    "ShortName": "SB_9A00E4D52B75431EAD47C8ECF699F1EC",
+    "Path": "SB_9A00E4D52B75431EAD47C8ECF699F1EC.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1181117825",
+      "Name": "PlayAmbient",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayAmbient",
+      "GUID": "{9A00E4D5-2B75-431E-AD47-C8ECF699F1EC}",
+      "MaxAttenuation": "4000.",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "17559111",
+        "Language": "SFX",
+        "ShortName": "FridgeHum.wav",
+        "Path": "SFX\\FridgeHum_D79FB2B7.wem"
+       },
+       {
+        "Id": "77876023",
+        "Language": "SFX",
+        "ShortName": "The Decemberists - Sons and Daughters.wav",
+        "Path": "SFX\\The Decemberists - Sons and Daughters_3F75BDB9.wem"
+       },
+       {
+        "Id": "129920412",
+        "Language": "SFX",
+        "ShortName": "Nobody-But-Me.wav",
+        "Path": "SFX\\Nobody-But-Me_3F75BDB9.wem"
+       },
+       {
+        "Id": "132339076",
+        "Language": "SFX",
+        "ShortName": "Nobody but me - The human beinz (HQ).wav",
+        "Path": "SFX\\Nobody but me - The human beinz (HQ)_E57F6440.wem"
+       },
+       {
+        "Id": "245888883",
+        "Language": "SFX",
+        "ShortName": "Wish-it-was-true.wav",
+        "Path": "SFX\\Wish-it-was-true_3F75BDB9.wem"
+       },
+       {
+        "Id": "264427821",
+        "Language": "SFX",
+        "ShortName": "Sons-and-daughters.wav",
+        "Path": "SFX\\Sons-and-daughters_3F75BDB9.wem"
+       },
+       {
+        "Id": "328986951",
+        "Language": "SFX",
+        "ShortName": "Status Quo - In The Army Now.wav",
+        "Path": "SFX\\Status Quo - In The Army Now_74308AB8.wem"
+       },
+       {
+        "Id": "520666452",
+        "Language": "SFX",
+        "ShortName": "Somewhere in My Memory (Home Alone) Organ Cover.wav",
+        "Path": "SFX\\Somewhere in My Memory (Home Alone) Organ Cover_9EDFC787.wem"
+       },
+       {
+        "Id": "545170574",
+        "Language": "SFX",
+        "ShortName": "KeyboardTwo.wav",
+        "Path": "SFX\\KeyboardTwo_10C4C929.wem"
+       },
+       {
+        "Id": "555718954",
+        "Language": "SFX",
+        "ShortName": "KeyboardOne.wav",
+        "Path": "SFX\\KeyboardOne_10C4C929.wem"
+       },
+       {
+        "Id": "582162288",
+        "Language": "SFX",
+        "ShortName": "StatusQuo.wav",
+        "Path": "SFX\\StatusQuo_3F75BDB9.wem"
+       },
+       {
+        "Id": "608122245",
+        "Language": "SFX",
+        "ShortName": "Tears For Fears - Everybody Wants To Rule The World.wav",
+        "Path": "SFX\\Tears For Fears - Everybody Wants To Rule The World_3F75BDB9.wem"
+       },
+       {
+        "Id": "633406710",
+        "Language": "SFX",
+        "ShortName": "The White Buffalo - Wish It Was True ( Lyrics ).wav",
+        "Path": "SFX\\The White Buffalo - Wish It Was True ( Lyrics )_3F75BDB9.wem"
+       },
+       {
+        "Id": "676822471",
+        "Language": "SFX",
+        "ShortName": "Tears-For-Fears.wav",
+        "Path": "SFX\\Tears-For-Fears_3F75BDB9.wem"
+       },
+       {
+        "Id": "798022642",
+        "Language": "SFX",
+        "ShortName": "Fan.wav",
+        "Path": "SFX\\Fan_44E7F544.wem"
+       },
+       {
+        "Id": "836467253",
+        "Language": "SFX",
+        "ShortName": "Blink Easter Egg w⧸ Transcript.wav",
+        "Path": "SFX\\Blink Easter Egg w⧸ Transcript_2E94F943.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{35F1993B-12B0-43ED-A1E8-0D84C1AC7F08}",
+        "Media": [
+         {
+          "Id": "77876023"
+         },
+         {
+          "Id": "129920412"
+         },
+         {
+          "Id": "132339076"
+         },
+         {
+          "Id": "245888883"
+         },
+         {
+          "Id": "264427821"
+         },
+         {
+          "Id": "328986951"
+         },
+         {
+          "Id": "582162288"
+         },
+         {
+          "Id": "608122245"
+         },
+         {
+          "Id": "633406710"
+         },
+         {
+          "Id": "676822471"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{9A57D5AE-4F6E-4F08-8855-25650970025F}",
+        "Media": [
+         {
+          "Id": "798022642"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{943EA2C4-32BF-43CC-9168-4FC3EAF41E34}",
+        "Media": [
+         {
+          "Id": "836467253"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{43FD0EDB-E048-4BE1-9194-CFD97720CBE0}",
+        "Media": [
+         {
+          "Id": "520666452"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{7891BBF5-93C2-49FB-8DA5-B123CEE7D3E8}",
+        "Media": [
+         {
+          "Id": "17559111"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{154991FE-A83D-45F4-91A1-B44EDF401B81}",
+        "Media": [
+         {
+          "Id": "545170574"
+         },
+         {
+          "Id": "555718954"
+         }
+        ]
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "2705646932",
+        "Name": "ChurchReverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\ChurchReverb",
+        "GUID": "{77991B50-1AFF-46D6-94DA-B3F12D6EC1E6}"
+       },
+       {
+        "Id": "3865115666",
+        "Name": "GarageReverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\GarageReverb",
+        "GUID": "{3E97015C-3666-4FB9-9D66-B92BE14C09C7}"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "932301089",
+      "Name": "RTPC_SFX_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_SFX_Volume",
+      "GUID": "{0206512E-1825-4F46-BC89-7858DFDBCCF4}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "77978275",
+      "Name": "Ambient",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Ambient",
+      "GUID": "{0A0D5431-2E77-4BFB-BEFE-001C211DB598}",
+      "Switches": [
+       {
+        "Id": "1403540682",
+        "Name": "Keyboard",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ambient\\Keyboard",
+        "GUID": "{154991FE-A83D-45F4-91A1-B44EDF401B81}"
+       },
+       {
+        "Id": "3632852187",
+        "Name": "ChurchOrgan",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ambient\\ChurchOrgan",
+        "GUID": "{43FD0EDB-E048-4BE1-9194-CFD97720CBE0}"
+       },
+       {
+        "Id": "1183803264",
+        "Name": "Fan",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ambient\\Fan",
+        "GUID": "{9A57D5AE-4F6E-4F08-8855-25650970025F}"
+       },
+       {
+        "Id": "2337612214",
+        "Name": "Fridge",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ambient\\Fridge",
+        "GUID": "{7891BBF5-93C2-49FB-8DA5-B123CEE7D3E8}"
+       },
+       {
+        "Id": "2548238350",
+        "Name": "Radio",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ambient\\Radio",
+        "GUID": "{35F1993B-12B0-43ED-A1E8-0D84C1AC7F08}"
+       },
+       {
+        "Id": "1568083719",
+        "Name": "TV",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ambient\\TV",
+        "GUID": "{943EA2C4-32BF-43CC-9168-4FC3EAF41E34}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
