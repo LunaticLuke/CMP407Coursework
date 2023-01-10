@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\",
-   "SourceFilesRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "D:\\Documents\\Y4S1\\CMP407\\CMP407Coursework\\CMP407LukeMcFarlane_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Documents\\Y4S1\\CMP407\\CMP407Coursework\\CMP407LukeMcFarlane_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Documents\\Y4S1\\CMP407\\CMP407Coursework\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "D:\\Documents\\Y4S1\\CMP407\\CMP407Coursework\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {

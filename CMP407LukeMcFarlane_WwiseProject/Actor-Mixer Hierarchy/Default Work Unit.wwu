@@ -2598,21 +2598,17 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Blink Easter Egg w⧸ Transcript" ID="{2B1EE77A-2119-4DF5-B78A-344FBAFA8420}">
-									<PropertyList>
-										<Property Name="TrimBegin" Type="Real64" Value="71.517"/>
-										<Property Name="TrimEnd" Type="Real64" Value="274.692"/>
-									</PropertyList>
+								<AudioFileSource Name="BlinkTVTrack" ID="{150E6253-F2AC-4C71-A272-8D5FF486553D}">
 									<Language>SFX</Language>
-									<AudioFile>Blink Easter Egg w⧸ Transcript.wav</AudioFile>
+									<AudioFile>BlinkTVTrack.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="836467253"/>
+										<MediaID ID="690188323"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="Blink Easter Egg w⧸ Transcript" ID="{2B1EE77A-2119-4DF5-B78A-344FBAFA8420}" Platform="Linked"/>
+								<ActiveSource Name="BlinkTVTrack" ID="{150E6253-F2AC-4C71-A272-8D5FF486553D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

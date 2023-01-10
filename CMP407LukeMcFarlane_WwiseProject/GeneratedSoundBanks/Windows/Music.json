@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\",
-   "SourceFilesRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "D:\\Documents\\Y4S1\\CMP407\\CMP407Coursework\\CMP407LukeMcFarlane_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Documents\\Y4S1\\CMP407\\CMP407Coursework\\CMP407LukeMcFarlane_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Documents\\Y4S1\\CMP407\\CMP407Coursework\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "D:\\Documents\\Y4S1\\CMP407\\Coursework\\CourseworkProject\\CMP4071902696\\CMP407LukeMcFarlane\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "D:\\Documents\\Y4S1\\CMP407\\CMP407Coursework\\CMP407LukeMcFarlane_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "3991942870",
     "GUID": "{86A98A5E-375E-4A96-8EF1-A858EB10BC3C}",
     "Language": "SFX",
-    "Hash": "4074858420",
+    "Hash": "1951522043",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
@@ -459,16 +459,16 @@
         "Path": "SFX\\Tears-For-Fears_3F75BDB9.wem"
        },
        {
+        "Id": "690188323",
+        "Language": "SFX",
+        "ShortName": "BlinkTVTrack.wav",
+        "Path": "SFX\\BlinkTVTrack_9EDFC787.wem"
+       },
+       {
         "Id": "798022642",
         "Language": "SFX",
         "ShortName": "Fan.wav",
         "Path": "SFX\\Fan_44E7F544.wem"
-       },
-       {
-        "Id": "836467253",
-        "Language": "SFX",
-        "ShortName": "Blink Easter Egg w⧸ Transcript.wav",
-        "Path": "SFX\\Blink Easter Egg w⧸ Transcript_2E94F943.wem"
        }
       ],
       "SwitchContainers": [
@@ -519,7 +519,7 @@
         "SwitchValue": "{943EA2C4-32BF-43CC-9168-4FC3EAF41E34}",
         "Media": [
          {
-          "Id": "836467253"
+          "Id": "690188323"
          }
         ]
        },
