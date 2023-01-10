@@ -41,7 +41,7 @@
 						<Action Name="" ID="{7FE938EC-373B-457A-A622-3CEF2A0F20C8}" ShortID="264899509">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Store_Door_Chime-Mike_Koenig-570742973" ID="{0F6EF8F2-4528-4887-9867-C2014ABF8B60}" WorkUnitID="{571851EE-389D-4536-BEAF-DFEB2E8281D5}"/>
+									<ObjectRef Name="Store Enter Sound" ID="{0F6EF8F2-4528-4887-9867-C2014ABF8B60}" WorkUnitID="{571851EE-389D-4536-BEAF-DFEB2E8281D5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -52,7 +52,7 @@
 						<Action Name="" ID="{B9A37201-0B8A-4A5B-8E28-24079104DCFC}" ShortID="514103449">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="CheckOut" ID="{678BB5D8-1BFA-4697-9E6C-CC7954B6777D}" WorkUnitID="{571851EE-389D-4536-BEAF-DFEB2E8281D5}"/>
+									<ObjectRef Name="CashRegister" ID="{678BB5D8-1BFA-4697-9E6C-CC7954B6777D}" WorkUnitID="{571851EE-389D-4536-BEAF-DFEB2E8281D5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

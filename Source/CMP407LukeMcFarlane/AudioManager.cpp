@@ -6,6 +6,7 @@
 #include "CustomAmbientSound.h"
 #include "../Plugins/Wwise/Source/AkAudio/Classes/AkGameplayStatics.h"
 #include "Components/BoxComponent.h"
+#include "Kismet/GameplayStatics.h"
 
 
 // Sets default values
@@ -27,6 +28,7 @@ void AAudioManager::BeginPlay()
 	Super::BeginPlay();
 
 	GetWorld()->GetTimerManager().SetTimer(Ticker,this,&AAudioManager::CashRegisterSounds,1.0f,true,0);
+	
 }
 
 void AAudioManager::CashRegisterSounds()

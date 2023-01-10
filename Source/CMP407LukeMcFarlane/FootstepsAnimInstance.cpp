@@ -32,12 +32,22 @@ void UFootstepsAnimInstance::FindFootstepSurface()
 	{
 		//Find out which surface was hit by the line trace.
 		const EPhysicalSurface SurfaceType = UPhysicalMaterial::DetermineSurfaceType(Hit.PhysMaterial.Get());
-		
-		//Get the name in its pure form. E.g instead of SurfaceType::Concrete it will simply read Concrete.
-		const FText SurfaceName = StaticEnum<EPhysicalSurface>()->GetDisplayNameTextByValue(SurfaceType);
 
-		//Convert this to a string.
-		FString SurfaceString= SurfaceName.ToString();
+		FString SurfaceString;
+
+		switch (SurfaceType)
+		{
+		case SurfaceType_Default: break;
+		case SurfaceType1: SurfaceString = "Concrete"; break;
+		case SurfaceType2:SurfaceString = "Grass"; break;
+		case SurfaceType3: SurfaceString = "Wood"; break;
+		case SurfaceType4: SurfaceString = "Tile"; break;
+		case SurfaceType5:SurfaceString = "Carpet"; break;
+		default: ;
+		}
+
+
+		//GEngine->AddOnScreenDebugMessage(-1, 0.25f, FColor::Cyan, SurfaceString);
 
 		//Pass the surface string through to the Surface switch for this gameobject
 		FAkAudioDevice::Get()->SetSwitch(TEXT("Surface"),*SurfaceString,GetOwningActor());

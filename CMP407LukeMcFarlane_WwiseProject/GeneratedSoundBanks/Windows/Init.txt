@@ -13,9 +13,11 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	1324113910	RTPC_Vehicle_Volume			\Default Work Unit\RTPC_Vehicle_Volume	
 	1596647065	RTPC_Music_Volume			\Default Work Unit\RTPC_Music_Volume	
 	2564988978	RTPC_Master_Volume			\Default Work Unit\RTPC_Master_Volume	
+	4294094418	RTPC_Amb_Ignore			\Default Work Unit\RTPC_Amb_Ignore	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	85412153	Ambience			\Default Work Unit\Master Audio Bus\SFX\Ambience	
+	309309195	2DAmbience			\Default Work Unit\Master Audio Bus\SFX\Ambience\2DAmbience	
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	971393558	Vehicles			\Default Work Unit\Master Audio Bus\SFX\Vehicles	
 	2385628198	Footsteps			\Default Work Unit\Master Audio Bus\SFX\Footsteps	

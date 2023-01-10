@@ -16,7 +16,7 @@
     "Id": "3991942870",
     "GUID": "{86A98A5E-375E-4A96-8EF1-A858EB10BC3C}",
     "Language": "SFX",
-    "Hash": "3133867384",
+    "Hash": "4074858420",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
@@ -839,6 +839,7 @@
       "Name": "StartCar",
       "ObjectPath": "\\Events\\Default Work Unit\\StartCar",
       "GUID": "{4EC13334-4B47-4A5B-8849-809537BA5ABD}",
+      "MaxAttenuation": "12000.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {

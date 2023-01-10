@@ -25,4 +25,5 @@ class CMP407LUKEMCFARLANE_API UFootstepsAnimInstance : public UAnimInstance
 	UPROPERTY(EditAnywhere)
 		UAkAudioEvent* FootstepEvent;
 	
+	
 };

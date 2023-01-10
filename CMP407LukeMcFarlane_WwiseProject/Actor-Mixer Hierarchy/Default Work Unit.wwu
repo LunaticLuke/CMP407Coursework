@@ -6,6 +6,7 @@
 				<SwitchContainer Name="Footsteps" ID="{AE75E393-B69B-493A-9555-2AFE7049CC7A}" ShortID="664649647">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
 								<Value>-2</Value>
@@ -1025,11 +1026,14 @@
 						<RandomSequenceContainer Name="Keyboard" ID="{1FCBBF16-B8BD-4D72-9C3F-0CA01D55ABD3}" ShortID="459647361">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-5</Value>
@@ -1288,8 +1292,11 @@
 						<Sound Name="Fan" ID="{04DF6444-0FB6-4F99-A71E-C6165EB474D7}" ShortID="888931131">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>4</Value>
@@ -1416,8 +1423,11 @@
 						<Sound Name="FridgeHum" ID="{44A90D92-BE80-482A-9672-A075C1CE84C1}" ShortID="873382750">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-6</Value>
@@ -1517,6 +1527,7 @@
 						<RandomSequenceContainer Name="Radio" ID="{2F86359E-E5E7-4F22-ACE4-CA3BA89A6265}" ShortID="258040152">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
@@ -2465,10 +2476,13 @@
 						<Sound Name="TV" ID="{3BE2516F-CC77-4428-BEC7-2329282764B6}" ShortID="292720794">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-3</Value>
@@ -2664,12 +2678,14 @@
 						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
-				<Sound Name="Store_Door_Chime-Mike_Koenig-570742973" ID="{0F6EF8F2-4528-4887-9867-C2014ABF8B60}" ShortID="113034825">
+				<Sound Name="Store Enter Sound" ID="{0F6EF8F2-4528-4887-9867-C2014ABF8B60}" ShortID="113034825">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-8</Value>
+								<Value>-20</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -2769,9 +2785,10 @@
 						<ActiveSource Name="Store_Door_Chime-Mike_Koenig-570742973" ID="{844F4FEC-004D-41C7-BFCC-3C513E5634BC}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="CheckOut" ID="{678BB5D8-1BFA-4697-9E6C-CC7954B6777D}" ShortID="68833653">
+				<Sound Name="CashRegister" ID="{678BB5D8-1BFA-4697-9E6C-CC7954B6777D}" ShortID="68833653">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 						<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
@@ -3000,7 +3017,10 @@
 							<ChildrenList>
 								<Sound Name="CarBrake" ID="{B3D09BA2-82DE-4EB6-89FD-E0D54347DEA0}" ShortID="506166918">
 									<PropertyList>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -3096,9 +3116,12 @@
 								</Sound>
 								<Sound Name="CarHorn" ID="{A3D09980-A8F7-4D28-BEFD-B67D9CAA648B}" ShortID="596837095">
 									<PropertyList>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -3234,6 +3257,7 @@
 								<Sound Name="Siren" ID="{48694604-160B-429F-AC9E-1204CD2BD581}" ShortID="744454024">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="Highpass" Type="int16">
 											<RTPCList>
 												<RTPC Name="" ID="{3982C475-4558-4C4D-AA46-348CBC8680E2}" ShortID="460862213">
@@ -3307,6 +3331,7 @@
 												<Value>3</Value>
 											</ValueList>
 										</Property>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<RTPCList>
@@ -3408,6 +3433,7 @@
 												</RTPC>
 											</RTPCList>
 										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="UseMaxSoundPerInstance" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -3572,6 +3598,7 @@
 						<BlendContainer Name="CarEngine" ID="{9B415032-E8DD-4C28-BF63-F4C15B6DC725}" ShortID="326753994">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="Highpass" Type="int16">
 									<RTPCList>
 										<RTPC Name="" ID="{5C46C1F7-D2DB-45B5-B2CC-411B933AF2C6}" ShortID="693002675">
@@ -3642,6 +3669,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<RTPCList>
@@ -3744,6 +3772,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-5</Value>
@@ -3755,7 +3784,7 @@
 									<Custom>
 										<Attenuation Name="Attenuation (Custom)" ID="{939072A3-060A-4B92-A4B2-31A9523D32BD}" ShortID="27669695">
 											<PropertyList>
-												<Property Name="RadiusMax" Type="Real64" Value="6500"/>
+												<Property Name="RadiusMax" Type="Real64" Value="10000"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -3772,7 +3801,7 @@
 																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>6500</XPos>
+																	<XPos>10000</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -3799,12 +3828,12 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>4654.591409</XPos>
+																	<XPos>7160.90986</XPos>
 																	<YPos>43</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>6500</XPos>
+																	<XPos>10000</XPos>
 																	<YPos>100</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -3828,13 +3857,13 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>162.5</XPos>
+																	<XPos>250</XPos>
 																	<YPos>100</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>6500</XPos>
+																	<XPos>10000</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -3860,7 +3889,6 @@
 								<Sound Name="Outside_Idle_1000" ID="{801487E7-7436-4DDF-AAA3-EC8CA9C869F5}" ShortID="118199807">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<RTPCList>
 												<RTPC Name="" ID="{ADFC0DD6-A000-43EC-8452-D700383E45B2}" ShortID="212773704">
@@ -5368,6 +5396,7 @@
 					<PropertyList>
 						<Property Name="3DPosition" Type="int16" Value="1"/>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 						<Property Name="OverridePositioning" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
@@ -5387,6 +5416,7 @@
 							</ModifierList>
 						</Property>
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-9</Value>
@@ -5500,7 +5530,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DD5909D-D58A-4DA4-BD6B-3224B0585075}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Ambience" ID="{0792D7E6-2E0A-48E8-B327-C14F379C38B1}" WorkUnitID="{27084563-4BFD-4713-AE43-754E89D360B5}"/>
+							<ObjectRef Name="2DAmbience" ID="{121371CC-BDC2-454A-9916-1BBD57EFDEEC}" WorkUnitID="{27084563-4BFD-4713-AE43-754E89D360B5}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

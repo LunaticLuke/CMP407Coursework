@@ -7,6 +7,7 @@
 					<PropertyList>
 						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-15</Value>
@@ -18,7 +19,7 @@
 							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Ambience" ID="{0792D7E6-2E0A-48E8-B327-C14F379C38B1}" WorkUnitID="{27084563-4BFD-4713-AE43-754E89D360B5}"/>
+							<ObjectRef Name="2DAmbience" ID="{121371CC-BDC2-454A-9916-1BBD57EFDEEC}" WorkUnitID="{27084563-4BFD-4713-AE43-754E89D360B5}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -80,6 +81,7 @@
 							</ModifierList>
 						</Property>
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-10</Value>
@@ -94,7 +96,7 @@
 							<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Ambience" ID="{0792D7E6-2E0A-48E8-B327-C14F379C38B1}" WorkUnitID="{27084563-4BFD-4713-AE43-754E89D360B5}"/>
+							<ObjectRef Name="2DAmbience" ID="{121371CC-BDC2-454A-9916-1BBD57EFDEEC}" WorkUnitID="{27084563-4BFD-4713-AE43-754E89D360B5}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -381,7 +383,7 @@
 							<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Ambience" ID="{0792D7E6-2E0A-48E8-B327-C14F379C38B1}" WorkUnitID="{27084563-4BFD-4713-AE43-754E89D360B5}"/>
+							<ObjectRef Name="2DAmbience" ID="{121371CC-BDC2-454A-9916-1BBD57EFDEEC}" WorkUnitID="{27084563-4BFD-4713-AE43-754E89D360B5}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -574,7 +576,7 @@
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-25</Value>
+								<Value>-23</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -586,7 +588,7 @@
 							<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Ambience" ID="{0792D7E6-2E0A-48E8-B327-C14F379C38B1}" WorkUnitID="{27084563-4BFD-4713-AE43-754E89D360B5}"/>
+							<ObjectRef Name="2DAmbience" ID="{121371CC-BDC2-454A-9916-1BBD57EFDEEC}" WorkUnitID="{27084563-4BFD-4713-AE43-754E89D360B5}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

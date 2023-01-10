@@ -4,6 +4,8 @@
 #include "ShopEntrance.h"
 
 #include "AkAudioDevice.h"
+#include "CMP407LukeMcFarlaneCharacter.h"
+#include "CustomAmbientSound.h"
 #include "Components/BoxComponent.h"
 #include "GameFramework/Character.h"
 
@@ -25,6 +27,8 @@ void AShopEntrance::BeginPlay()
 	Super::BeginPlay();
 	//Bind the overlap event to the trigger box. It will be called whenever an overlap is detected. 
 	CollisionBox->OnComponentBeginOverlap.AddDynamic(this,&AShopEntrance::OnOverlapBegin);
+	CollisionBox->OnComponentEndOverlap.AddDynamic(this,&AShopEntrance::OnOverlapEnd);
+	FAkAudioDevice::Get()->SetRTPCValue(*FString("RTPC_Amb_Ignore"), 0.0f, 0, TwoDAmbienceEvent);
 }
 
 
@@ -34,9 +38,25 @@ void AShopEntrance::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AAc
 	//If the overlapped actor is a character
 	if(Cast<ACharacter>(OtherActor))
 	{
-		
-	//Trigger the entering shop WWise event on this actor.
-		FAkAudioDevice::Get()->PostEvent("EnterShop",this);
+
+		if(bPlaySound)
+		{
+			//Trigger the entering shop WWise event on this actor.
+			FAkAudioDevice::Get()->PostEvent("EnterShop",this);
+		}
+		if(OtherActor->IsA(ACMP407LukeMcFarlaneCharacter::StaticClass()))
+		{
+			FAkAudioDevice::Get()->SetRTPCValue(*FString("RTPC_Amb_Ignore"), 0.7f, 0, TwoDAmbienceEvent);
+		}
+	}
+}
+
+void AShopEntrance::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
+	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+{
+	if(OtherActor->IsA(ACMP407LukeMcFarlaneCharacter::StaticClass()))
+	{
+		FAkAudioDevice::Get()->SetRTPCValue(*FString("RTPC_Amb_Ignore"), 0.0f, 0, TwoDAmbienceEvent);
 	}
 }
 

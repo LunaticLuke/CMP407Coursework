@@ -39,6 +39,7 @@ void AVehicle::BeginPlay()
 
 	//Fill in the old postion with the current position so that there aren't inaccurate calculations based on 0,0,0
 	OldPosition = GetActorLocation();
+	VehicleMesh->SetSimulatePhysics(false);
 }
 
 
@@ -193,7 +194,7 @@ void AVehicle::SetVehicleMesh(USkeletalMesh* MeshToSet, float DistanceToTravel, 
 	//Position the audio component a bit further up to prevent if from being positioned in the floor or anything
 	AkComponent->AddRelativeLocation(FVector(0,0,200));
 	//Enable occlusion calculations.
-	AkComponent->OcclusionRefreshInterval = 0.2f;
+	AkComponent->OcclusionRefreshInterval = 0.0f;
 
 }
 

@@ -18,6 +18,9 @@ class CMP407LUKEMCFARLANE_API AShopEntrance : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AShopEntrance();
+	
+	UPROPERTY(EditAnywhere)
+	bool bPlaySound = false;
 
 protected:
 	// Called when the game starts or when spawned
@@ -27,10 +30,16 @@ protected:
 	 */
 	UPROPERTY(EditAnywhere)
 	UBoxComponent* CollisionBox;
+	UPROPERTY(EditAnywhere)
+	class ACustomAmbientSound* TwoDAmbienceEvent;
 
 public:	
 
 // Function called whenever an overlap occurs with the trigger box.
 	UFUNCTION()
 	void OnOverlapBegin(UPrimitiveComponent* OverlappedComponent,AActor* OtherActor,UPrimitiveComponent* OtherComp,int32 OtherBodyIndex,bool bFromSweep,const FHitResult& SweepResult);
+
+	UFUNCTION()
+	virtual void OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
 };

@@ -1681,7 +1681,7 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
-						<MusicSegment Name="ToAmbient" ID="{6867FF2E-16C3-4E81-84A6-CFC19DCD31E3}" ShortID="985047263">
+						<MusicSegment Name="ToAmbientStinger" ID="{6867FF2E-16C3-4E81-84A6-CFC19DCD31E3}" ShortID="985047263">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="6000"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
@@ -1766,7 +1766,7 @@
 								</ObjectList>
 							</ObjectLists>
 						</MusicSegment>
-						<MusicSegment Name="TransitionIntoTense" ID="{DD629938-EA4F-4C41-83F2-4B617A758F65}" ShortID="865466722">
+						<MusicSegment Name="TransitionIntoTenseStinger" ID="{DD629938-EA4F-4C41-83F2-4B617A758F65}" ShortID="865466722">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="7290.02267573696"/>
 								<Property Name="OverrideConversion" Type="bool" Value="True"/>
@@ -2009,7 +2009,7 @@
 								<Local>
 									<MusicStinger Name="" ID="{B34F4BF7-4AFD-4144-9C13-21E7A60CBB4C}">
 										<TriggerRef Name="ToAmbient" ID="{F9C8121B-773D-40AA-AD38-3DCFAC60396E}" WorkUnitID="{F50162AC-1588-4AAC-A0FB-2866F17607B1}"/>
-										<SegmentRef Name="ToAmbient" ID="{6867FF2E-16C3-4E81-84A6-CFC19DCD31E3}" WorkUnitID="{3574404C-128A-48C4-ADDA-AC63D7145204}"/>
+										<SegmentRef Name="ToAmbientStinger" ID="{6867FF2E-16C3-4E81-84A6-CFC19DCD31E3}" WorkUnitID="{3574404C-128A-48C4-ADDA-AC63D7145204}"/>
 									</MusicStinger>
 								</Local>
 							</Reference>
@@ -2017,7 +2017,7 @@
 								<Local>
 									<MusicStinger Name="" ID="{03B91AFF-634F-461D-95D4-14095034B4BD}">
 										<TriggerRef Name="ToTense" ID="{9A901191-1C0E-49C9-B2DD-80BB104BFDCB}" WorkUnitID="{F50162AC-1588-4AAC-A0FB-2866F17607B1}"/>
-										<SegmentRef Name="TransitionIntoTense" ID="{DD629938-EA4F-4C41-83F2-4B617A758F65}" WorkUnitID="{3574404C-128A-48C4-ADDA-AC63D7145204}"/>
+										<SegmentRef Name="TransitionIntoTenseStinger" ID="{DD629938-EA4F-4C41-83F2-4B617A758F65}" WorkUnitID="{3574404C-128A-48C4-ADDA-AC63D7145204}"/>
 									</MusicStinger>
 								</Local>
 							</Reference>

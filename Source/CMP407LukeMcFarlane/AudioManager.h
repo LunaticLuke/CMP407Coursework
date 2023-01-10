@@ -44,6 +44,8 @@ protected:
 	TArray<class UAkTrigger*> Triggers;
 	UPROPERTY(EditAnywhere)
 	TArray<class UAkStateValue*> States;
+	UPROPERTY(EditAnywhere)
+	TArray<class UPhysicalMaterial*> Surfaces;
 
 	
 	void CashRegisterSounds();

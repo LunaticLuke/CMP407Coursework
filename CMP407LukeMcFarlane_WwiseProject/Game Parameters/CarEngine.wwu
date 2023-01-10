@@ -14,6 +14,8 @@
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="Max" Type="Real64" Value="8000"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="2000"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="1500"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>

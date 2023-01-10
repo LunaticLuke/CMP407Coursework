@@ -190,6 +190,71 @@
 											</RTPCList>
 										</Property>
 									</PropertyList>
+									<ChildrenList>
+										<Bus Name="2DAmbience" ID="{121371CC-BDC2-454A-9916-1BBD57EFDEEC}">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{FAF42C7E-75FC-405F-A044-B6ADA4CB8775}" ShortID="383755903">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="RTPC_Amb_Ignore" ID="{78D8B742-0AC1-4A3B-8230-D465080223E1}" WorkUnitID="{CE9B6102-15D4-46DC-9961-DDCAE43D4611}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{DA15F442-1095-423E-A308-8578AE56035E}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Log1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>75</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{37B71B72-AC6D-4BBB-97B8-35DBE33EBC81}" ShortID="995586884">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="RTPC_Amb_Ignore" ID="{78D8B742-0AC1-4A3B-8230-D465080223E1}" WorkUnitID="{CE9B6102-15D4-46DC-9961-DDCAE43D4611}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{FE553842-AF94-48F9-9D6F-0CFE900D54A6}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0.03334</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Log1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ObjectLists/>
+										</Bus>
+									</ChildrenList>
 									<ObjectLists/>
 								</Bus>
 							</ChildrenList>
